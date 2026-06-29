@@ -18,5 +18,6 @@
   "obsidian-icons-plugin",
   "obsidian-importer",
   "format-with-prettier",
-  "code-styler"
+  "code-styler",
+  "auto-folder-collapse"
 ]
