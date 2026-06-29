@@ -31,7 +31,7 @@
   "fileIcons": {
     "01.개인노트": {
       "color": "red",
-      "icon": "lucide-folders"
+      "icon": "lucide-library-big"
     },
     "01.개인노트/01.Docker": {
       "icon": "lucide-book-plus",
