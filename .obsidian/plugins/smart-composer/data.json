@@ -242,7 +242,7 @@
       "dimension": 1024
     }
   ],
-  "chatModelId": "gemma4:12b",
+  "chatModelId": "gemini-3-pro-preview (plan)",
   "applyModelId": "gemini-3-pro-preview (plan)",
   "embeddingModelId": "openai/text-embedding-3-small",
   "systemPrompt": "",
