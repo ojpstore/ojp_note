@@ -1,0 +1,111 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": true,
+  "showAllFolderIcons": true,
+  "minimalFolderIcons": true,
+  "showMarkdownTabIcons": true,
+  "showTitleIcons": true,
+  "showTagPillIcons": false,
+  "showMenuActions": true,
+  "showSuggestionIcons": false,
+  "showQuickSwitcherIcons": true,
+  "showMoveFileIcons": true,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "maxBackups": 2,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": false,
+    "rulePage": "file"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "01.개인노트": {
+      "color": "red",
+      "icon": "lucide-album"
+    },
+    "01.개인노트/01.Docker": {
+      "icon": "lucide-book-plus",
+      "color": "red"
+    },
+    "01.개인노트/02.Hermes": {
+      "icon": "lucide-book-down",
+      "color": "red"
+    },
+    "01.개인노트/02.Hermes/01.Hermes Docker 설치.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/02.Hermes/02.Hermes Agent & Ollama 연동.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/03.OpenClaw": {
+      "icon": "lucide-book-down",
+      "color": "red"
+    },
+    "01.개인노트/03.OpenClaw/01.OpenClaw Docker 설치.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/04.RockLinux": {
+      "icon": "lucide-book-down",
+      "color": "red"
+    },
+    "01.개인노트/99.기타/01. 플러그인 정보.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "02.회사노트": {
+      "icon": "lucide-album",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련": {
+      "icon": "lucide-book-down",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Antigravity": {
+      "icon": "lucide-book-down",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Antigravity/01.antigravity-base.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Antigravity/02.antigravity-ext.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Hermes": {
+      "icon": "lucide-book-down",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Hermes/skill": {
+      "icon": "lucide-book-down",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Hermes/skill/01.pan-mybatis.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Hermes/skill/02.pan-service.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {},
+  "fileRules": [],
+  "folderRules": []
+}

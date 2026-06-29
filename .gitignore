@@ -1,0 +1,31 @@
+# Obsidian 설정 중 중요한 핵심 설정 파일만 Git으로 추적하고,
+# 무거운 플러그인 설치 파일, 테마 파일, 작업 공간(workspace) 등은 제외합니다.
+
+# 1. .obsidian 폴더 안의 모든 항목을 기본적으로 제외
+.obsidian/*
+
+!.obsidian/plugins
+!.obsidian/themes
+
+# 2. 중요 설정 파일들은 추적 대상에 포함 (예외 처리)
+!.obsidian/app.json
+!.obsidian/appearance.json
+!.obsidian/community-plugins.json
+!.obsidian/core-plugins.json
+!.obsidian/hotkeys.json
+
+# (필요시 커스텀 CSS 스니펫을 공유하려면 아래 주석 해제)
+#!.obsidian/snippets/
+
+# 3. Obsidian 내부 휴지통 및 OS 임시 파일
+.trash/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# AI/벡터 검색 플러그인 관련 로컬 데이터 및 캐시
+.smtcmp_vector_db.tar.gz
+.smtcmp_json_db/
+
+
+/.obsidian/workspace.json
