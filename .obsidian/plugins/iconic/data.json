@@ -31,14 +31,14 @@
   "fileIcons": {
     "01.개인노트": {
       "color": "red",
-      "icon": "lucide-album"
+      "icon": "lucide-folders"
     },
     "01.개인노트/01.Docker": {
       "icon": "lucide-book-plus",
       "color": "red"
     },
     "01.개인노트/02.Hermes": {
-      "icon": "lucide-book-down",
+      "icon": "lucide-folders",
       "color": "red"
     },
     "01.개인노트/02.Hermes/01.Hermes Docker 설치.md": {
