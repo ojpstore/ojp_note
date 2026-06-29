@@ -81,7 +81,11 @@
       "icon": "lucide-notebook-pen",
       "color": "blue"
     },
-    "02.회사노트/01.변환작업 관련/Antigravity/02.antigravity-ext.md": {
+    "02.회사노트/01.변환작업 관련/Antigravity/02.antigravity-base2.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Antigravity/03.antigravity-ext.md": {
       "icon": "lucide-notebook-pen",
       "color": "blue"
     },

@@ -104,6 +104,10 @@
     "02.회사노트/01.변환작업 관련/Hermes/skill/02.pan-service.md": {
       "icon": "lucide-notebook-pen",
       "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Hermes/skill/03.테이블 비교 작업.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
     }
   },
   "bookmarkIcons": {},
