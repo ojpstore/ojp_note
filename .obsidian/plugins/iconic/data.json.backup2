@@ -41,7 +41,7 @@
       "icon": "lucide-book-down",
       "color": "red"
     },
-    "01.개인노트/02.Hermes/01.Docker 설치.md": {
+    "01.개인노트/02.Hermes/01.Hermes Docker 설치.md": {
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
@@ -53,7 +53,7 @@
       "icon": "lucide-book-down",
       "color": "red"
     },
-    "01.개인노트/03.OpenClaw/01.Docker 설치.md": {
+    "01.개인노트/03.OpenClaw/01.OpenClaw Docker 설치.md": {
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
