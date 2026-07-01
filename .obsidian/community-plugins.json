@@ -21,5 +21,6 @@
   "code-styler",
   "dataview",
   "obsidian-tasks-plugin",
-  "emoji-shortcodes"
+  "emoji-shortcodes",
+  "toggle-readable-line-length"
 ]
