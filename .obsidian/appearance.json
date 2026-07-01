@@ -3,6 +3,7 @@
   "theme": "obsidian",
   "accentColor": "#8656f5",
   "enabledCssSnippets": [
-    "dashboard"
+    "dashboard",
+    "full-width"
   ]
 }
