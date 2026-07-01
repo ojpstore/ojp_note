@@ -34,7 +34,11 @@
       "icon": "lucide-library-big"
     },
     "01.개인노트/01.Docker": {
-      "icon": "lucide-book-plus",
+      "icon": "lucide-folders",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/01.mem0 설치 및 관련 정보.md": {
+      "icon": "lucide-notebook-pen",
       "color": "red"
     },
     "01.개인노트/02.Hermes": {
@@ -58,6 +62,14 @@
       "color": "red"
     },
     "01.개인노트/03.OpenClaw/01.OpenClaw Docker 설치.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/04.Git": {
+      "icon": "lucide-folders",
+      "color": "red"
+    },
+    "01.개인노트/04.Git/01.해당 brach 의 초기 소스.md": {
       "icon": "lucide-notebook-pen",
       "color": "red"
     },

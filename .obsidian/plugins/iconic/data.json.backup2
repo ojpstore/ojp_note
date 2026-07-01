@@ -34,7 +34,7 @@
       "icon": "lucide-library-big"
     },
     "01.개인노트/01.Docker": {
-      "icon": "lucide-book-plus",
+      "icon": "lucide-folders",
       "color": "red"
     },
     "01.개인노트/02.Hermes": {

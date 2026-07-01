@@ -1,0 +1,6 @@
+.markdown-preview-view.has-wide-page,
+.markdown-source-view.mod-cm6.has-wide-page .cm-scroller {
+    max-width: 100% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
