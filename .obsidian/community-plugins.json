@@ -20,5 +20,6 @@
   "format-with-prettier",
   "code-styler",
   "dataview",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "emoji-shortcodes"
 ]
