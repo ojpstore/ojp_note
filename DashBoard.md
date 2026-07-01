@@ -11,7 +11,7 @@ cssclasses:
 - 📝 최근 작성한 노트
   `$=dv.list(dv.pages('').sort(f=>f.file.ctime.ts,"desc").limit(5).file.link)`
 - 📁 폴더: 폴더명
-  `$=dv.list(dv.pages('"폴더명"').sort(f=>f.file.ctime.ts,"desc").limit(5).file.link)`
+  `$=dv.list(dv.pages('"02.회사노트"').sort(f=>f.file.ctime.ts,"desc").limit(5).file.link)`
 - 🔖 태그: 태그명
   `$=dv.list(dv.pages('#태그명').sort(f=>f.file.name,"desc").limit(5).file.link)`
 - ✅ 완료: 프로젝트
