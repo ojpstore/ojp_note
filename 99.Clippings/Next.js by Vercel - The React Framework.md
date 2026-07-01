@@ -1,12 +1,12 @@
 ---
-title: "Next.js by Vercel - The React Framework"
-source: "https://nextjs.org/"
+title: Next.js by Vercel - The React Framework
+source: https://nextjs.org/
 author:
 published:
 created: 2026-06-28
-description: "Next.js by Vercel is the full-stack React framework for the web."
+description: Next.js by Vercel is the full-stack React framework for the web.
 tags:
-  - "clippings"
+  - clippings
 ---
 ## The React Framework for the Web
 
