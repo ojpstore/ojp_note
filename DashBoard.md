@@ -1,5 +1,7 @@
 ---
-cssclasses: dashboard
+cssclasses:
+  - dashboard
+  - has-wide-page
 ---
 
 
