@@ -1,7 +1,6 @@
 ---
 cssclasses:
   - dashboard
-  - has-wide-page
 ---
 
 ## 노트 리스트
@@ -10,8 +9,8 @@ cssclasses:
   `$=dv.list(dv.pages('').sort(f=>f.file.mtime.ts,"desc").limit(5).file.link)`
 - 📝 최근 작성한 노트
   `$=dv.list(dv.pages('').sort(f=>f.file.ctime.ts,"desc").limit(5).file.link)`
-- - 📁 폴더: 회사노트
-  `$=dv.list(dv.pages('"01.rod노트"').sort(f=>f.file.ctime.ts,"desc").limit(5).file.link)`
+- 📁 폴더: 개인노트
+  `$=dv.list(dv.pages('"01.개인노트"').sort(f=>f.file.ctime.ts,"desc").limit(5).file.link)`
 - 📁 폴더: 회사노트
   `$=dv.list(dv.pages('"02.회사노트"').sort(f=>f.file.ctime.ts,"desc").limit(5).file.link)`
 - 🔖 태그: 태그명
