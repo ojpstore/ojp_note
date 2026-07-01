@@ -37,6 +37,10 @@
       "icon": "lucide-folders",
       "color": "red"
     },
+    "01.개인노트/01.Docker/01.mem0 설치 및 관련 정보.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
     "01.개인노트/02.Hermes": {
       "icon": "lucide-folders",
       "color": "red"
