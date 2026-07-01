@@ -65,6 +65,14 @@
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
+    "01.개인노트/04.Git": {
+      "icon": "lucide-folders",
+      "color": "red"
+    },
+    "01.개인노트/04.Git/01.해당 brach 의 초기 소스.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
     "01.개인노트/04.RockLinux": {
       "icon": "lucide-book-down",
       "color": "red"
