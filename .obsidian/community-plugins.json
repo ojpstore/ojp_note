@@ -19,5 +19,6 @@
   "obsidian-importer",
   "format-with-prettier",
   "code-styler",
-  "dataview"
+  "dataview",
+  "obsidian-tasks-plugin"
 ]
