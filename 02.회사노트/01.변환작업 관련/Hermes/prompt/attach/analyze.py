@@ -52,11 +52,11 @@ def get_param_type(java_file_path, param_name):
     return None
 
 def main():
-    xml_dir = "C:/hermes-work/panocean-v2/src/main/resources/mappers/som"
+    xml_dir = "D:/panocean-v2-dev/src/main/resources/mappers/som"
     java_dirs = [
-        "C:/hermes-work/panocean-v2/src/main/java/com/pan/som/dao",
-        "C:/hermes-work/panocean-v2/src/main/java/com/pan/som/function",
-        "C:/hermes-work/panocean-v2/src/main/java/com/pan/som/dao/service"
+        "D:/panocean-v2-dev/src/main/java/com/pan/som/dao",
+        "D:/panocean-v2-dev/src/main/java/com/pan/som/function",
+        "D:/panocean-v2-dev/src/main/java/com/pan/som/dao/service"
     ]
     
     md_content = "# MyBatis ParameterType Analysis Report\n\n"
@@ -79,7 +79,7 @@ def main():
                     md_content += f"| {tid} | {use['file']} | {fqcn} |\n"
         md_content += "\n"
         
-    with open("D:/mybatis_parameterType.md", 'w', encoding='utf-8') as f:
+    with open("d:/ojp_note/02.회사노트/01.변환작업 관련/Hermes/prompt/attach/mybatis_parameterType.md", 'w', encoding='utf-8') as f:
         f.write(md_content)
 
 main()
