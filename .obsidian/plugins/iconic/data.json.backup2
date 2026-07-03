@@ -77,6 +77,10 @@
       "icon": "lucide-book-down",
       "color": "red"
     },
+    "01.개인노트/98.강좌": {
+      "icon": "lucide-youtube",
+      "color": "red"
+    },
     "01.개인노트/99.기타/01. 플러그인 정보.md": {
       "icon": "lucide-notebook-pen",
       "color": "red"
@@ -105,6 +109,14 @@
       "icon": "lucide-notebook-pen",
       "color": "blue"
     },
+<<<<<<< HEAD
+    "02.회사노트/01.변환작업 관련/Antigravity/98. Mybatis parameterType.md": {
+=======
+    "02.회사노트/01.변환작업 관련/Antigravity/98. Mybatis parameterType (All).md": {
+>>>>>>> origin/main
+      "icon": "lucide-notebook-pen",
+      "color": "orange"
+    },
     "02.회사노트/01.변환작업 관련/Antigravity/99.antigravity-ext.md": {
       "icon": "lucide-notebook-pen",
       "color": "blue"
@@ -118,10 +130,6 @@
       "color": "blue"
     },
     "02.회사노트/01.변환작업 관련/Hermes/prompt/01. 테이블 스키마 기준으로 쿼리 컬럼 조사 (진행중).md": {
-      "icon": "lucide-notebook-pen",
-      "color": "blue"
-    },
-    "02.회사노트/01.변환작업 관련/Hermes/prompt/02. Mybatis parameterType.md": {
       "icon": "lucide-notebook-pen",
       "color": "blue"
     },
