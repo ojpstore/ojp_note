@@ -52,11 +52,11 @@ def get_param_type(java_file_path, param_name):
     return None
 
 def main():
-    xml_dir = "D:/hermes-work/panocean-v2/src/main/resources/mappers/som"
+    xml_dir = "D:/panocean-v2-dev/src/main/resources/mappers/som"
     java_dirs = [
-        "D:/hermes-work/panocean-v2/src/main/java/com/pan/som/dao",
-        "D:/hermes-work/panocean-v2/src/main/java/com/pan/som/function",
-        "D:/hermes-work/panocean-v2/src/main/java/com/pan/som/dao/service"
+        "D:/panocean-v2-dev/src/main/java/com/pan/som/dao",
+        "D:/panocean-v2-dev/src/main/java/com/pan/som/function",
+        "D:/panocean-v2-dev/src/main/java/com/pan/som/dao/service"
     ]
     
     md_content = "# MyBatis ParameterType Analysis Report\n\n"

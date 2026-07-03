@@ -77,6 +77,10 @@
       "icon": "lucide-book-down",
       "color": "red"
     },
+    "01.개인노트/98.강좌": {
+      "icon": "lucide-youtube",
+      "color": "red"
+    },
     "01.개인노트/99.기타/01. 플러그인 정보.md": {
       "icon": "lucide-notebook-pen",
       "color": "red"
@@ -105,7 +109,11 @@
       "icon": "lucide-notebook-pen",
       "color": "blue"
     },
+<<<<<<< HEAD
     "02.회사노트/01.변환작업 관련/Antigravity/98. Mybatis parameterType.md": {
+=======
+    "02.회사노트/01.변환작업 관련/Antigravity/98. Mybatis parameterType (All).md": {
+>>>>>>> origin/main
       "icon": "lucide-notebook-pen",
       "color": "orange"
     },
