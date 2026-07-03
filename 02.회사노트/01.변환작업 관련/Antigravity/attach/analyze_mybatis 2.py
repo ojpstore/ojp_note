@@ -1,80 +1,3 @@
-- 관련 파일 : ![[analyze.py]]
-
-# MyBatis XML 매퍼 파일을 분석 및 변경 작업
-
-- 분석 폴더 경로 :D:\hermes-work\panocean-v2\src\main\resources\mappers\som
-- 분석 대상: 분석 폴더 경로의 모든 (하위 폴더 포함) xml 파일 대상
-- 분석한 결과는 d:\mybatis_parameterType.md 파일로 저장
-
-## 1.분석 절차
-
-1. 위 XML 파일에서 모든 <insert id="..."> 와 <update id="..."> 와 <delete id="...">태그의 id 를 추출한다.
-2. 각 id에 대해, 해당 id를 호출하는 메서드를 찾는다.
-
-- 메서드 관련 비교 자바 파일 폴더
-  - D:\hermes-work\panocean-v2\src\main\java\com\pan\som\dao
-  - D:\hermes-work\panocean-v2\src\main\java\com\pan\som\function
-  - D:\hermes-work\panocean-v2\src\main\java\com\pan\som\dao\service
-- 메서드 내부에서 uxbDAO.insert(...) 또는 uxbDAO.update(...)의 두 번째 인자로 해당 id 문자열이 매핑되는 메서드를 찾는다.
-
-3. 메서드의 두 번째 파라미터 타입을 확인한다.
-   - 두 번째 파라미터가 클래스 타입(VO/DTO 등)인 경우만 분석 대상으로 포함한다.
-     - 호출하는 함수의 파라미터가 VO 와 DTO 둘다 존재시 DTO 로 적용
-     - 호출하는 함수의 파라미터가 VO 와 DTO 둘다 존재하지 않으면 해당 클래스(VO/DTO) 적용
-   - Map<String, Object> 또는 원시타입(Long, String 등)을 그대로 전달하거나 내부에서 Map을 생성해 전달하는 경우는 제외한다.
-4. 두 번째 파라미터 클래스의 네임스페이스 포함 전체 클래스명(FQCN)을 확인한다. (import 구문 또는 클래스 파일 위치를 통해 확인)
-5. 두 번째 파라미터 클래스의 네임스페이스 포함 전체 클래스명(FQCN)을 확인한다.
-   - import 구문 또는 클래스 파일 위치를 통해 확인한다.
-
-## 2.분석 결과를 아래와 같이 XML 파일별로 구분하여 표 형식으로 출력
-
-- 파일명 : 순수 xml 파일명만
-- 표형식
-  > 너비 : 90% , 폰트색상은 흰색
-  > id , 함수,권장 parameterType (FQCN) 최대한 잘리지 않게 줄바꿈 및 너비 조정
-  - id : XML 태그의 id 속성값
-  - 함수 : uxbDAO.insert 또는 uxbDAO.update 형식의 java 소스 ("파일명 :: 함수(파라미터 포함)" 형식으로 표기 - 1건 이상일 경우 줄바꿈)
-    - 예 : test.java :: uxbDAO.update(testDto dto)
-  - 권장 parameterType (FQCN) : 두 번째 파라미터 클래스의 네임스페이스 포함 클래스명 (1건 이상일 경우 줄바꿈)
-  - 비고 : 특이사항 정보
-
-### 표 형식 예시 (HTML 구조):
-
-<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 13px; min-width: 800px;">
-  <thead>
-    <tr style="background-color: #2b3a4a; text-align: left; font-weight: bold;">
-      <th style="padding: 12px 15px; border: 1px solid #dddddd; color: #ffffff; width: 12%;">id</th>
-      <th style="padding: 12px 15px; border: 1px solid #dddddd; color: #ffffff; width: 40%;">함수</th>
-      <th style="padding: 12px 15px; border: 1px solid #dddddd; color: #ffffff; width: 28%;">권장 parameterType (FQCN)</th> 
-      <th style="padding: 12px 15px; border: 1px solid #dddddd; color: #ffffff; width: 10%;">비고</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- 데이터 행 작성 -->
-	<td style="padding: 12px 15px; border: 1px solid #dddddd;color: #ffffff;  font-weight: bold;">...</td>
-        <td style="padding: 12px 15px; border: 1px solid #dddddd;color: #ffffff;  font-weight: bold;">...</td>
-        <td style="padding: 12px 15px; border: 1px solid #dddddd;color: #ffffff;  font-weight: bold;">...</td>
-        <td style="padding: 12px 15px; border: 1px solid #dddddd;color: #ffffff;  font-weight: bold;">...</td>
-  </tbody>
-</table>
-
-## 3. 적용
-
-- 분석된 내용을 바탕으로 parameterType 적용
-  - 적용 전 필수 체크
-    - 파일명 일치
-    - 네임스페이스 일치
-    - id 일치
-    - 호출하는 함수의 파라미터가 vo 와 dto 가 둘다 존재시 dto 클래스 적용
-    - 호출하는 함수의 파라미터가 vo 와 dto 가 둘다 존재하지 않으면 해당 클래스 적용
-
----
-
-<font color="#2DC26B"># 관련 파이썬 소스</font>
-
-- analyze_mybatis.py
-  ![[analyze_mybatis 2.py]]
-```
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -221,19 +144,19 @@ def analyze_java_files(java_files, id_set, class_index):
     for fpath, content in java_files.items():
         imports = get_imports(content)
         fname = os.path.basename(fpath)
-
+        
         # 패키지 정보 파악
         pkg_m = PACKAGE_PATTERN.search(content)
         current_pkg = pkg_m.group(1) if pkg_m else ""
-
+        
         for m in UXBDAO_CALL_PATTERN.finditer(content):
             dao_op, full_id, param_var = m.group(1), m.group(2), m.group(3).strip()
             if full_id not in id_set:
                 continue
-
+            
             method_name, params_str = find_method_params(content, m.start())
             found_type = None
-
+            
             # 1. 메서드 파라미터에서 찾기
             if params_str:
                 for param in params_str.split(","):
@@ -244,7 +167,7 @@ def analyze_java_files(java_files, id_set, class_index):
                         if pvar == param_var and is_class_type(ptype):
                             found_type = ptype
                             break
-
+            
             # 2. 메서드 내부 지역 변수 선언에서 찾기 (param_var가 단순 변수명일 때만 정규식 검색 수행)
             if not found_type and re.match(r'^\w+$', param_var):
                 pat = re.compile(rf'\b([A-Z]\w*)\s+{re.escape(param_var)}\b\s*[=;]')
@@ -252,16 +175,16 @@ def analyze_java_files(java_files, id_set, class_index):
                     cand = lm.group(1).strip()
                     if is_class_type(cand):
                         found_type = cand
-
+            
             if not found_type:
                 continue
-
+            
             # FQCN 결정
             fqcn = resolve_fqcn(found_type, imports, class_index)
             # 만약 패키지명이 결정 안되었고 동일 패키지명일 가능성이 있으면 보완
             if '.' not in fqcn and current_pkg:
                 fqcn = f"{current_pkg}.{fqcn}"
-
+                
             sig = f"{method_name}({params_str.strip()})" if method_name else "unknown"
             results[full_id].append((fname, dao_op, sig, found_type, fqcn))
     return results
@@ -281,13 +204,13 @@ def pick_entries(entries):
 def generate_md(xml_data, java_results):
     lines = ["# MyBatis XML ParameterType 분석 결과\n\n",
              f"- **분석 XML 폴더**: `{XML_ROOT}`\n\n---\n\n"]
-
+             
     for xp in sorted(xml_data.keys(), key=lambda p: os.path.basename(p).lower()):
         data = xml_data[xp]
         ns = data["namespace"] or ""
         fname = os.path.basename(xp)
         rows = []
-
+        
         for tt, qid in data["ids"]:
             if tt not in ("insert","update","delete"):
                 continue
@@ -295,11 +218,11 @@ def generate_md(xml_data, java_results):
             entries = java_results.get(full_id, [])
             if not entries:
                 continue
-
+            
             apply, note = pick_entries(entries)
             fqcns = list(dict.fromkeys([e[4] for e in apply]))
             fqcn_str = "<br/>".join(fqcns)
-
+            
             seen = set()
             funcs = []
             for e in entries:
@@ -307,12 +230,12 @@ def generate_md(xml_data, java_results):
                 if k not in seen:
                     seen.add(k)
                     funcs.append(f"{e[0]} :: uxbDAO.{e[1]}({e[2]})")
-
+            
             rows.append((qid, "<br/>".join(funcs), fqcn_str, note))
-
+            
         if not rows:
             continue
-
+            
         lines += [f"\n## {fname}\n\n", f"**Namespace**: `{ns}`\n\n",
                   '<table style="width:90%;border-collapse:collapse;margin:20px 0;font-size:13px;min-width:800px;">\n',
                   '  <thead><tr style="background-color:#2b3a4a;text-align:left;font-weight:bold;">\n',
@@ -321,18 +244,18 @@ def generate_md(xml_data, java_results):
                   '    <th style="padding:12px 15px;border:1px solid #dddddd;color:#ffffff;width:30%;">권장 parameterType (FQCN)</th>\n',
                   '    <th style="padding:12px 15px;border:1px solid #dddddd;color:#ffffff;width:13%;">비고</th>\n',
                   '  </tr></thead>\n  <tbody>\n']
-
+                  
         for qid, func_str, fqcn_str, note in rows:
             lines += [
                 '    <tr>\n',
                 f'      <td style="padding:12px 15px;border:1px solid #dddddd;color:#ffffff;font-weight:bold;word-break:break-all;">{qid}</td>\n',
-                f'      <td style="padding:12px 15px;border:1px solid #dddddd;#ffffff;word-break:break-all;font-size:12px;">{func_str}</td>\n',
+                f'      <td style="padding:12px 15px;border:1px solid #dddddd;color:#ffffff;word-break:break-all;font-size:12px;">{func_str}</td>\n',
                 f'      <td style="padding:12px 15px;border:1px solid #dddddd;color:#ffffff;font-weight:bold;word-break:break-all;">{fqcn_str}</td>\n',
                 f'      <td style="padding:12px 15px;border:1px solid #dddddd;color:#ffffff;font-size:12px;">{note}</td>\n',
                 '    </tr>\n'
             ]
         lines.append('  </tbody>\n</table>\n\n')
-
+        
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("".join(lines))
     print(f"[MD 저장] {OUTPUT_FILE}")
@@ -342,7 +265,7 @@ def apply_xml(xml_data, java_results):
     for xp, data in xml_data.items():
         ns = data["namespace"] or ""
         fname = os.path.basename(xp)
-
+        
         if not os.path.isfile(xp):
             continue
         try:
@@ -350,10 +273,10 @@ def apply_xml(xml_data, java_results):
                 content = f.read()
         except Exception:
             continue
-
+            
         modified = content
         changed = 0
-
+        
         for tt, qid in data["ids"]:
             if tt not in ("insert","update","delete"):
                 continue
@@ -361,36 +284,36 @@ def apply_xml(xml_data, java_results):
             entries = java_results.get(full_id, [])
             if not entries:
                 continue
-
+                
             apply, _ = pick_entries(entries)
             fqcns = list(dict.fromkeys([e[4] for e in apply]))
             if not fqcns:
                 continue
-
+                
             target_fqcn = fqcns[0]
-
+            
             # xml 태그의 parameterType="xxx" 부분을 교체하거나 추가하는 정규식
             # 1. 이미 parameterType 속성이 존재하는 경우 교체
             pat_exist = re.compile(
                 rf'(<{tt}\s+[^>]*\bid=["\']' + re.escape(qid) + r'["\'][^>]*\bparameterType=)["\'][^"\']*["\']',
                 re.IGNORECASE
             )
-
+            
             # 2. parameterType 속성이 아예 없는 경우 추가 (id 속성 뒤에 바로 추가)
             pat_missing = re.compile(
                 rf'(<{tt}\s+[^>]*\bid=["\']' + re.escape(qid) + r'["\'])(?![^>]*\bparameterType=)',
                 re.IGNORECASE
             )
-
+            
             new_content = pat_exist.sub(rf'\1"{target_fqcn}"', modified)
             if new_content == modified:
                 new_content = pat_missing.sub(rf'\1 parameterType="{target_fqcn}"', modified)
-
+                
             if new_content != modified:
                 modified = new_content
                 changed += 1
                 print(f"  [적용 대기] {fname}::{qid} → {target_fqcn}")
-
+                
         if changed > 0:
             try:
                 with open(xp, "w", encoding="utf-8") as f:
@@ -399,15 +322,15 @@ def apply_xml(xml_data, java_results):
                 print(f"  [저장 완료] {xp} ({changed}건)")
             except Exception as e:
                 print(f"  [에러] {xp}: {e}")
-
+                
     print(f"\n총 {total}건 XML 변경 완료")
 
 def main():
     print("=== MyBatis parameterType 일괄 마이그레이션 도구 ===")
-
+    
     # 0. 클래스 FQCN 사전 인덱싱
     class_index = build_class_index()
-
+    
     # 1. Java 파일 로딩
     print("1. Java 소스코드 스캔 중...", flush=True)
     jf = load_java_files()
@@ -452,5 +375,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-```
