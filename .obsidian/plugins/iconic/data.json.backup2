@@ -109,6 +109,13 @@
       "icon": "lucide-notebook-pen",
       "color": "blue"
     },
+<<<<<<< HEAD
+=======
+    "02.회사노트/01.변환작업 관련/Antigravity/97.Mybatis parameterType (파일단위).md": {
+      "icon": "lucide-notebook-pen",
+      "color": "orange"
+    },
+>>>>>>> origin/main
     "02.회사노트/01.변환작업 관련/Antigravity/98. Mybatis parameterType (All).md": {
       "icon": "lucide-notebook-pen",
       "color": "orange"
