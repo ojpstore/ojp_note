@@ -97,6 +97,10 @@
       "icon": "lucide-youtube",
       "color": "red"
     },
+    "01.개인노트/99.기타": {
+      "icon": "lucide-wallet-cards",
+      "color": "green"
+    },
     "01.개인노트/99.기타/01.플러그인 정보.md": {
       "icon": "lucide-notebook-pen",
       "color": "red"
