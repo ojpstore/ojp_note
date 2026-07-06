@@ -73,6 +73,10 @@
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
+    "01.개인노트/04.Git/02. 특정 branch 에서 현재 branch에 조건별 merge.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
     "01.개인노트/04.RockLinux": {
       "icon": "lucide-book-down",
       "color": "red"
