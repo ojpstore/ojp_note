@@ -263,7 +263,23 @@
     "includePatterns": []
   },
   "mcp": {
-    "servers": []
+    "servers": [
+      {
+        "id": "Docker_MCP_Work",
+        "parameters": {
+          "command": "docker",
+          "args": [
+            "mcp",
+            "gateway",
+            "run",
+            "--profile",
+            "work"
+          ]
+        },
+        "toolOptions": {},
+        "enabled": true
+      }
+    ]
   },
   "chatOptions": {
     "includeCurrentFileContent": true,
