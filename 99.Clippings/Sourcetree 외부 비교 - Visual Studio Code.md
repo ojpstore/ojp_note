@@ -1,11 +1,7 @@
 ---
-description: A collaborative AI workspace, built on your company context. Build and orchestrate agents right alongside your team's projects, meetings, and connected apps.
 tags:
-  - clippings
+  - git
 ---
-
-## \[Sourcetree\] 외부 비교 - Visual Studio Code
-
 ## Git Diff [Permalink](https://iyerl.github.io/dev/sourcetree-compare.html#git-diff)
 
 - `git diff <branch명> <비교할 branch명>`
