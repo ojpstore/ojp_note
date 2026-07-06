@@ -1,7 +1,7 @@
 {
   "defaultViewMode": "preview",
   "showLineNumber": false,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "promptDelete": false,
   "attachmentFolderPath": ".//attach"
 }
