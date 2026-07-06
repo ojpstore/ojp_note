@@ -41,6 +41,10 @@
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
+    "01.개인노트/01.Docker/02.Rockylinux Dockerfile.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
     "01.개인노트/02.Hermes": {
       "icon": "lucide-folders",
       "color": "red"
@@ -73,6 +77,14 @@
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
+    "01.개인노트/04.Git/02. 특정 branch 에서 현재 branch에 조건별 merge.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/04.Git/99.Sourcetree 외부 비교 - Visual Studio Code.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
     "01.개인노트/04.RockLinux": {
       "icon": "lucide-book-down",
       "color": "red"
@@ -81,7 +93,11 @@
       "icon": "lucide-youtube",
       "color": "red"
     },
-    "01.개인노트/99.기타/01. 플러그인 정보.md": {
+    "01.개인노트/99.기타/01.플러그인 정보.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/99.기타/02.vscode ssh 설정.md": {
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
