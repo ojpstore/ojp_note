@@ -12,4 +12,4 @@ docker run -d -p 1521:1521 --name OraFree --restart=always -e ORACLE_PASSWORD=�
 ```
 
 - DBeaver 연결
-![[image.png]]
+![[Notion/Docker/attach/image.png]]
