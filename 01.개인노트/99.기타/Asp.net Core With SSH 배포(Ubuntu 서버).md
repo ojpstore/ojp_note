@@ -13,7 +13,7 @@ ssh-keygen -t rsa -b 4096
 ```
     - 해당 계정 폴더
         - /계정/.ssh/authorized_keys 파일에 공개키 추가
-![[Untitled.png]]
+![[Notion/Docker/attach/Untitled.png]]
     - GitHub 리파토리의 ACTIONS - SECRET 에 비밀키 추가
         - /계정/.ssh/id_rsa
 ```plain text
@@ -21,7 +21,7 @@ ssh-keygen -t rsa -b 4096
 .....
 -----END OPENSSH PRIVATE KEY-----
 ```
-![[Untitled 1.png]]
+![[Notion/Docker/attach/Untitled 1.png]]
 
     - /etc/systemd/system/core-api.service 생성 후 내용 작성
         - 배포 폴더 경로 : /home/api/core-api
