@@ -3,12 +3,7 @@
   "providers": [
     {
       "type": "anthropic-plan",
-      "id": "anthropic-plan",
-      "oauth": {
-        "accessToken": "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",
-        "refreshToken": "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",
-        "expiresAt": 1782674109649
-      }
+      "id": "anthropic-plan"
     },
     {
       "type": "openai-plan",
@@ -16,14 +11,7 @@
     },
     {
       "type": "gemini-plan",
-      "id": "gemini-plan",
-      "oauth": {
-        "accessToken": "ya29.a0AT3oNZ9ig1FwLatTjilbJawVQ-eKb5by9RS8j_H1nJEQmdRIbXDAKm2p6ZCpMGppuju-QPegQIziY52yF-5wBeAhXqPokEEafKQ9RrunUbCUYInRBIVCJBT4tR9D5siJihHabNm3cHD37hIYPdMsoCQ4TTwBlCylbwKrC3LRBmJqp12n2qXTqEiy5grMGT_FzWZSsjBIfvdfwgaCgYKAdISARYSFQHGX2MiVnlPlaOmLkjKp7MibUAOMA0213",
-        "refreshToken": "1//0eFt3-wEnxd1tCgYIARAAGA4SNwF-L9Ir2N0oB3tUxmZiQGXRMBDEhtKAbFh_W_1ZJb4zcbrcnh3R01FLu87e_ZeTugpYnIhU7mc",
-        "expiresAt": 1783410331803,
-        "managedProjectId": "lunar-app-5h2h0",
-        "email": "ojpfight@gmail.com"
-      }
+      "id": "gemini-plan"
     },
     {
       "type": "anthropic",
@@ -59,9 +47,7 @@
     },
     {
       "type": "ollama",
-      "id": "ollama",
-      "baseUrl": "http://localhost:11434",
-      "apiKey": "ollama"
+      "id": "ollama"
     },
     {
       "type": "lm-studio",
@@ -188,22 +174,6 @@
       "providerId": "xai",
       "id": "grok-4-1-fast-non-reasoning",
       "model": "grok-4-1-fast-non-reasoning"
-    },
-    {
-      "providerType": "ollama",
-      "providerId": "ollama",
-      "id": "gemma4:12b",
-      "model": "gemma4:12b",
-      "promptLevel": 1,
-      "enable": true
-    },
-    {
-      "providerType": "ollama",
-      "providerId": "ollama",
-      "id": "gemma4:26b",
-      "model": "gemma4:26b",
-      "promptLevel": 1,
-      "enable": true
     }
   ],
   "embeddingModels": [
@@ -250,8 +220,8 @@
       "dimension": 1024
     }
   ],
-  "chatModelId": "gemini-3-flash-preview (plan)",
-  "applyModelId": "gemini-3-pro-preview (plan)",
+  "chatModelId": "claude-sonnet-4.5",
+  "applyModelId": "gpt-4.1-mini",
   "embeddingModelId": "openai/text-embedding-3-small",
   "systemPrompt": "",
   "ragOptions": {
@@ -263,27 +233,7 @@
     "includePatterns": []
   },
   "mcp": {
-<<<<<<< HEAD
-    "servers": [
-      {
-        "id": "Docker_MCP_Work",
-        "parameters": {
-          "command": "docker",
-          "args": [
-            "mcp",
-            "gateway",
-            "run",
-            "--profile",
-            "work"
-          ]
-        },
-        "enabled": true,
-        "toolOptions": {}
-      }
-    ]
-=======
     "servers": []
->>>>>>> origin/main
   },
   "chatOptions": {
     "includeCurrentFileContent": true,
