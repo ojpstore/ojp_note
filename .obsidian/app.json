@@ -5,5 +5,8 @@
   "promptDelete": false,
   "attachmentFolderPath": ".//attach",
   "alwaysUpdateLinks": true,
-  "userIgnoreFilters": null
+  "userIgnoreFilters": [
+    "/attach",
+    "attach"
+  ]
 }
