@@ -137,6 +137,10 @@
       "icon": "lucide-youtube",
       "color": "red"
     },
+    "01.개인노트/98.강좌/OpenClaw/01.멀티 에이전트.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
     "01.개인노트/99.기타": {
       "icon": "lucide-wallet-cards",
       "color": "green"
