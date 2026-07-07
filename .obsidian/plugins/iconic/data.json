@@ -177,6 +177,10 @@
       "icon": "lucide-notebook-pen",
       "color": "blue"
     },
+    "02.회사노트/02.nexacro": {
+      "icon": "lucide-folders",
+      "color": "blue"
+    },
     "02.회사노트/02.nexacro/01.Nexacro Studio 환경 설정.md": {
       "icon": "lucide-notebook-pen",
       "color": "blue"
