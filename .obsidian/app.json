@@ -4,5 +4,6 @@
   "readableLineLength": false,
   "promptDelete": false,
   "attachmentFolderPath": ".//attach",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": null
 }
