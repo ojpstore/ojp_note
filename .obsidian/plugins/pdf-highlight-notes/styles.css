@@ -1,0 +1,82 @@
+/* Floating toolbar shown next to a PDF text selection. */
+.pdf-highlight-notes-toolbar {
+  position: fixed;
+  display: none;
+  z-index: var(--layer-tooltip, 999);
+  gap: 4px;
+  padding: 3px;
+  background-color: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-m);
+  box-shadow: var(--shadow-s);
+}
+
+.pdf-highlight-notes-toolbar.is-visible {
+  display: flex;
+}
+
+.pdf-highlight-notes-btn {
+  padding: 3px 10px;
+  font-size: var(--font-ui-small);
+  font-weight: 600;
+  color: var(--text-on-accent);
+  background-color: var(--interactive-accent);
+  border: none;
+  border-radius: var(--radius-s);
+  cursor: pointer;
+}
+
+.pdf-highlight-notes-btn:hover {
+  background-color: var(--interactive-accent-hover);
+}
+
+/* Controls injected into the PDF viewer's top toolbar. */
+.pdf-highlight-notes-controls {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 8px;
+}
+
+.pdf-highlight-notes-tbtn {
+  padding: 4px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--icon-color);
+  border-radius: var(--radius-s);
+}
+
+.pdf-highlight-notes-tbtn:hover {
+  background-color: var(--background-modifier-hover);
+}
+
+.pdf-highlight-notes-dot {
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pdf-highlight-notes-dot:hover {
+  box-shadow: 0 0 0 2px var(--interactive-accent);
+}
+
+/* Overlay marks drawn over PDF pages (screen-only marker mode). */
+.pdf-highlight-notes-overlay {
+  position: absolute;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.pdf-highlight-notes-overlay-highlight {
+  mix-blend-mode: multiply;
+  opacity: 0.55;
+}
+
+.pdf-highlight-notes-overlay.pdf-highlight-notes-overlay-underline {
+  background-color: transparent;
+  border-bottom: 2px solid;
+}
