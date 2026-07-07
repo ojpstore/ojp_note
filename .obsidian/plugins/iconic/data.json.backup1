@@ -45,6 +45,10 @@
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
+    "01.개인노트/01.Docker/03.Docker MCP Toolkit 연결.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
     "01.개인노트/02.Hermes": {
       "icon": "lucide-folders",
       "color": "red"
@@ -53,11 +57,11 @@
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
-    "01.개인노트/02.Hermes/02.Hermes Agent & Ollama 연동.md": {
+    "01.개인노트/02.Hermes/02.Hermes Agent & Ollama(Gemma4) 연동.md": {
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
-    "01.개인노트/02.Hermes/03.Claude Code — OAuth.md": {
+    "01.개인노트/02.Hermes/03.Hermes Agent & Ollama(llama3.2) 연동.md": {
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
@@ -77,7 +81,7 @@
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
-    "01.개인노트/04.Git/02. 특정 branch 에서 현재 branch에 조건별 merge.md": {
+    "01.개인노트/04.Git/02.특정 branch 에서 현재 branch에 조건별 merge.md": {
       "icon": "lucide-notebook-pen",
       "color": "red"
     },

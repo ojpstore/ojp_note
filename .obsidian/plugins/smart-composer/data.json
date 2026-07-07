@@ -276,8 +276,8 @@
             "work"
           ]
         },
-        "toolOptions": {},
-        "enabled": true
+        "enabled": true,
+        "toolOptions": {}
       }
     ]
   },
