@@ -1,0 +1,53 @@
+---
+notion-id: 78c99de0-f812-4ee0-ac1e-063298fe3014
+base: "[[Docker.base]]"
+cover: "[[Notion/Docker/attach/MariaDB.jpeg]]"
+최종 편집 일시: 2025-10-18T11:22:00
+태그: []
+인증: unverified
+소유자:
+  - 준표 오
+---
+- 컨테이너 생성 및 실행
+```docker
+docker run --name mariadb -e MYSQL_ROOT_PASSWORD=비밀번호 -p 3306:3306 -v D:\docker\mariadb:/var/lib/mysql mariadb  --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+```
+
+- 계정생성
+```sql
+CREATE USER '계정'@'%' IDENTIFIED BY '비밀번호';
+
+## 전체 권한
+#GRANT ALL PRIVILEGES ON *.* TO '계정'@'%';
+
+## mysql 디비만 권한
+#GRANT ALL PRIVILEGES ON mysql.* TO '계정'@'%';
+
+######################################################################
+
+CREATE USER 'user'@'%' IDENTIFIED BY 'Win#20200402';
+## 전체 권한
+GRANT ALL PRIVILEGES ON *.* TO 'user'@'%';
+
+## mysql 디비만 권한
+#GRANT ALL PRIVILEGES ON mysql.* TO 'user'@'%';
+
+flush privileges;
+```
+
+- 계정삭제
+```sql
+delete from mysql.user where User ='삭제할 아이디';
+
+delete from mysql.db where User ='삭제할 아이디';
+
+flush privileges;
+
+######################################################################
+
+delete from mysql.user where User ='user';
+
+delete from mysql.db where User ='user';
+
+flush privileges;
+```
