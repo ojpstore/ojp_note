@@ -193,6 +193,9 @@
       "icon": "lucide-folder-open",
       "color": "yellow"
     },
+    "97.칸반보드/테스트.md": {
+      "icon": "lucide-kanban-square"
+    },
     "98.Clippings": {
       "icon": "lucide-folder-open",
       "color": "yellow"
