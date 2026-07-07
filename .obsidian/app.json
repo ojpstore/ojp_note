@@ -6,7 +6,6 @@
   "attachmentFolderPath": ".//attach",
   "alwaysUpdateLinks": true,
   "userIgnoreFilters": [
-    "/attach",
-    "*/attach"
+    "/attach"
   ]
 }
