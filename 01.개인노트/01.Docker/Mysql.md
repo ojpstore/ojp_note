@@ -13,7 +13,7 @@ docker run --name mysql -e MYSQL_ROOT_PASSWORD=pass#1234 -p 3306:3306 -v d:\dock
 ```
 
 - dbeaver 연결시 에러 발생시
-![[mysql_dbeaver_error.png]]
+![[Notion/Docker/attach/mysql_dbeaver_error.png]]
 
 - 계정생성
 ```sql

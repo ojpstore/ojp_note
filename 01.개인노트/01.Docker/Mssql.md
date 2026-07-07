@@ -37,9 +37,9 @@ docker exec -it sql1 /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P 12345 -Q 
 /opt/mssql/bin/mssql-conf set sqlagent.enabled true
 ```
 
-![[mssql2022_agent_menu.png]]
+![[Notion/Docker/attach/mssql2022_agent_menu.png]]
 
-![[mssql_agent_bash.png]]
+![[Notion/Docker/attach/mssql_agent_bash.png]]
 
 - 메일 세팅 관련
     - 관련주소 : [https://saddev.tistory.com/23](https://saddev.tistory.com/23)
