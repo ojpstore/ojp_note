@@ -45,10 +45,13 @@
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
+<<<<<<< HEAD
+=======
     "01.개인노트/01.Docker/03.Docker MCP Toolkit 연결.md": {
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
+>>>>>>> origin/main
     "01.개인노트/02.Hermes": {
       "icon": "lucide-folders",
       "color": "red"
@@ -81,7 +84,11 @@
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
+<<<<<<< HEAD
+    "01.개인노트/04.Git/02. 특정 branch 에서 현재 branch에 조건별 merge.md": {
+=======
     "01.개인노트/04.Git/02.특정 branch 에서 현재 branch에 조건별 merge.md": {
+>>>>>>> origin/main
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
@@ -97,10 +104,13 @@
       "icon": "lucide-youtube",
       "color": "red"
     },
+<<<<<<< HEAD
+=======
     "01.개인노트/99.기타": {
       "icon": "lucide-wallet-cards",
       "color": "green"
     },
+>>>>>>> origin/main
     "01.개인노트/99.기타/01.플러그인 정보.md": {
       "icon": "lucide-notebook-pen",
       "color": "red"
