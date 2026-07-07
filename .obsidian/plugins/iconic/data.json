@@ -189,6 +189,18 @@
       "color": "blue",
       "icon": "lucide-notebook-pen"
     },
+    "97.칸반보드": {
+      "icon": "lucide-folder-open",
+      "color": "yellow"
+    },
+    "98.Clippings": {
+      "icon": "lucide-folder-open",
+      "color": "yellow"
+    },
+    "99.Excalidraw": {
+      "icon": "lucide-folder-open",
+      "color": "yellow"
+    },
     "🏠 DashBoard.md": {
       "icon": "lucide-layout-dashboard",
       "color": "orange"
