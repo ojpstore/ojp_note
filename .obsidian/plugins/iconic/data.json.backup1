@@ -177,6 +177,33 @@
       "icon": "lucide-notebook-pen",
       "color": "blue"
     },
+    "02.회사노트/02.nexacro": {
+      "icon": "lucide-folders",
+      "color": "blue"
+    },
+    "02.회사노트/02.nexacro/01.Nexacro Studio 환경 설정.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/02.nexacro/02.Smart Tomcat 설정.md": {
+      "color": "blue",
+      "icon": "lucide-notebook-pen"
+    },
+    "97.칸반보드": {
+      "icon": "lucide-folder-open",
+      "color": "yellow"
+    },
+    "97.칸반보드/테스트.md": {
+      "icon": "lucide-kanban-square"
+    },
+    "98.Clippings": {
+      "icon": "lucide-folder-open",
+      "color": "yellow"
+    },
+    "99.Excalidraw": {
+      "icon": "lucide-folder-open",
+      "color": "yellow"
+    },
     "🏠 DashBoard.md": {
       "icon": "lucide-layout-dashboard",
       "color": "orange"
