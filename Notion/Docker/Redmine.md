@@ -1,5 +1,4 @@
 ---
-notion-id: 143ecbc3-9068-8051-a8fb-e5319a7a51f0
 base: "[[Docker.base]]"
 cover: "[[Notion/Docker/attach/Redmine.jpeg]]"
 최종 편집 일시: 2025-12-18T12:02:00

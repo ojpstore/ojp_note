@@ -1,5 +1,4 @@
 ---
-notion-id: aee9016d-97ff-49d5-9298-502475f0fadb
 base: "[[Docker.base]]"
 cover: "[[Notion/Docker/attach/Mysql.jpeg]]"
 최종 편집 일시: 2025-04-17T16:31:00

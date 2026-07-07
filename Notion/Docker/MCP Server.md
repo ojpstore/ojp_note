@@ -1,5 +1,4 @@
 ---
-notion-id: 207ecbc3-9068-80de-80c4-ff36e1ad5bda
 base: "[[Docker.base]]"
 cover: "[[Notion/Docker/attach/MCP Server.jpeg]]"
 최종 편집 일시: 2025-06-03T16:19:00

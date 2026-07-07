@@ -1,5 +1,4 @@
 ---
-notion-id: 1d9ecbc3-9068-80ec-b2e7-c8ca6aef0718
 base: "[[Docker.base]]"
 cover: "[[Notion/Docker/attach/OpenProject.jpeg]]"
 최종 편집 일시: 2025-04-18T14:30:00

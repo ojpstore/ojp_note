@@ -1,5 +1,4 @@
 ---
-notion-id: b9394506-0259-4d31-97bd-1a70fdfc93cb
 base: "[[Docker.base]]"
 cover: "[[Notion/Docker/attach/Next.js With SSH 배포 (Ubuntu 서버)]]"
 최종 편집 일시: 2024-09-26T19:59:00

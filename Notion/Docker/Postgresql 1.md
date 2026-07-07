@@ -1,5 +1,4 @@
 ---
-notion-id: 4b5e24d0-0c31-4468-b124-4c0e2e63a819
 base: "[[Docker.base]]"
 cover: "[[Notion/Docker/attach/Postgresql 1.jpeg]]"
 최종 편집 일시: 2025-04-21T14:30:00

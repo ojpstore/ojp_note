@@ -1,5 +1,4 @@
 ---
-notion-id: 5bdfa6c5-62dd-48f1-ab84-f5b749a6408b
 base: "[[Docker.base]]"
 cover: "[[Notion/Docker/attach/MongoDB.jpeg]]"
 최종 편집 일시: 2024-11-01T07:20:00

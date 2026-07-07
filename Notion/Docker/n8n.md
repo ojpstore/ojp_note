@@ -1,5 +1,4 @@
 ---
-notion-id: 20fecbc3-9068-8062-8c5c-ec0bec33d599
 base: "[[Docker.base]]"
 cover: "[[Notion/Docker/attach/n8n.jpeg]]"
 최종 편집 일시: 2025-06-11T16:04:00

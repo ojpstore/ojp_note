@@ -1,5 +1,4 @@
 ---
-notion-id: 222ecbc3-9068-80c2-b86b-fdebc7f8d2cd
 base: "[[Docker.base]]"
 cover: "[[Notion/Docker/attach/Joplin.jpeg]]"
 최종 편집 일시: 2025-06-30T22:46:00

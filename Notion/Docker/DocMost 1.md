@@ -1,5 +1,4 @@
 ---
-notion-id: 1d8ecbc3-9068-802e-9489-fbbd135bf2b2
 base: "[[Docker.base]]"
 cover: "[[Notion/Docker/attach/DocMost.jpeg]]"
 최종 편집 일시: 2025-04-18T09:04:00

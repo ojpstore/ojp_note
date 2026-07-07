@@ -1,5 +1,4 @@
 ---
-notion-id: 297b2854-306b-4280-a499-bf163929194c
 base: "[[Docker.base]]"
 cover: "[[Notion/Docker/attach/SVN.jpeg]]"
 최종 편집 일시: 2024-11-01T07:20:00

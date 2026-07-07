@@ -1,5 +1,4 @@
 ---
-notion-id: 144ecbc3-9068-80e1-b12f-c95334cfb395
 base: "[[Docker.base]]"
 cover: "[[Notion/Docker/attach/Jenkins.jpeg]]"
 최종 편집 일시: 2024-11-21T08:59:00

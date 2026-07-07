@@ -1,5 +1,4 @@
 ---
-notion-id: e33b843d-6ff5-4bc7-b546-073f6137ba21
 base: "[[Docker.base]]"
 cover: "[[Notion/Docker/attach/Redis.jpeg]]"
 최종 편집 일시: 2024-03-21T13:23:00

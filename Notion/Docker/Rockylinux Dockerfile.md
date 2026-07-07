@@ -1,5 +1,4 @@
 ---
-notion-id: 2b9ecbc3-9068-80ab-b306-e1bccd5c958c
 base: "[[Docker.base]]"
 최종 편집 일시: 2025-12-09T16:39:00
 태그: []

@@ -1,5 +1,4 @@
 ---
-notion-id: 3fa14c8a-6e83-4fc5-9231-7d4a5fc76c49
 base: "[[Docker.base]]"
 cover: "[[Notion/Docker/attach/Portainer.jpeg]]"
 최종 편집 일시: 2024-03-21T19:55:00

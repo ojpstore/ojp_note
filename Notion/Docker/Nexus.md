@@ -1,5 +1,4 @@
 ---
-notion-id: 202ecbc3-9068-8000-9e99-d4a8e577e2b2
 base: "[[Docker.base]]"
 cover: "[[Notion/Docker/attach/Nexus.jpeg]]"
 최종 편집 일시: 2025-05-29T15:36:00

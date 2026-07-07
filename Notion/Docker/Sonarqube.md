@@ -1,5 +1,4 @@
 ---
-notion-id: 64482c6e-92ac-4148-8dd0-32ac4b0ce1c0
 base: "[[Docker.base]]"
 cover: "[[Notion/Docker/attach/Sonarqube.jpeg]]"
 최종 편집 일시: 2024-03-27T14:33:00

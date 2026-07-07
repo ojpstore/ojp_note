@@ -1,5 +1,4 @@
 ---
-notion-id: 17eecbc3-9068-8078-98c2-e89ea68e5ca6
 base: "[[Docker.base]]"
 cover: "[[Notion/Docker/attach/drawio.jpeg]]"
 최종 편집 일시: 2025-01-24T10:38:00

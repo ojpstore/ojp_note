@@ -1,5 +1,4 @@
 ---
-notion-id: f52d14c7-00fb-41ea-8db6-7c3a384542c4
 base: "[[Docker.base]]"
 cover: "[[Notion/Docker/attach/Ubuntu (ojpfight-ubuntu).jpeg]]"
 최종 편집 일시: 2024-07-09T20:53:00

@@ -1,5 +1,4 @@
 ---
-notion-id: 09f49070-c64d-4102-bcdf-69bfc1515cc0
 base: "[[Docker.base]]"
 cover: "[[Notion/Docker/attach/Code Server.jpeg]]"
 최종 편집 일시: 2024-08-24T21:33:00

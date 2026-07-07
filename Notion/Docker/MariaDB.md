@@ -1,5 +1,4 @@
 ---
-notion-id: 78c99de0-f812-4ee0-ac1e-063298fe3014
 base: "[[Docker.base]]"
 cover: "[[Notion/Docker/attach/MariaDB.jpeg]]"
 최종 편집 일시: 2025-10-18T11:22:00
