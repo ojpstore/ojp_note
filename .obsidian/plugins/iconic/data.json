@@ -149,6 +149,10 @@
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
+    "01.개인노트/98.강좌/OpenClaw/03.에이저트 정의 & 워크스페이스 & 텔레그램 라우팅.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
     "01.개인노트/99.기타": {
       "icon": "lucide-wallet-cards",
       "color": "green"
@@ -233,6 +237,22 @@
       "icon": "lucide-folders",
       "color": "blue"
     },
+    "02.회사노트/02.환경설정/01.Nexacro Studio 환경 설정.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/02.환경설정/02.Smart Tomcat 설정.md": {
+      "color": "blue",
+      "icon": "lucide-notebook-pen"
+    },
+    "02.회사노트/02.환경설정/03.Intellij 설정 관련 초기화.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/02.환경설정/04.Intellij 설치.md": {
+      "color": "blue",
+      "icon": "lucide-notebook-pen"
+    },
     "97.칸반보드": {
       "icon": "lucide-folder-open",
       "color": "yellow"
@@ -251,22 +271,6 @@
     "🏠 DashBoard.md": {
       "icon": "lucide-layout-dashboard",
       "color": "orange"
-    },
-    "02.회사노트/02.환경설정/01.Nexacro Studio 환경 설정.md": {
-      "icon": "lucide-notebook-pen",
-      "color": "blue"
-    },
-    "02.회사노트/02.환경설정/02.Smart Tomcat 설정.md": {
-      "color": "blue",
-      "icon": "lucide-notebook-pen"
-    },
-    "02.회사노트/02.환경설정/03.Intellij 설정 관련 초기화.md": {
-      "icon": "lucide-notebook-pen",
-      "color": "blue"
-    },
-    "02.회사노트/02.환경설정/04.Intellij 설치.md": {
-      "color": "blue",
-      "icon": "lucide-notebook-pen"
     }
   },
   "bookmarkIcons": {},
