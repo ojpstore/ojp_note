@@ -245,6 +245,10 @@
       "icon": "lucide-notebook-pen",
       "color": "blue"
     },
+    "02.회사노트/02.nexacro/04.Intellij 설치.md": {
+      "color": "blue",
+      "icon": "lucide-notebook-pen"
+    },
     "97.칸반보드": {
       "icon": "lucide-folder-open",
       "color": "yellow"
