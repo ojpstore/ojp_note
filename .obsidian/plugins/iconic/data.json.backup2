@@ -49,6 +49,46 @@
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
+    "01.개인노트/01.Docker/04.Gitea.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/05.MariaDB.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/06.MariaDB & Redmine.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/07.Mssql.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/08.Mysql.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/09.n8n.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/10.Nexus.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/11.ORACLE.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/12.Portainer.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/13.Postgresql.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
     "01.개인노트/02.Hermes": {
       "icon": "lucide-folders",
       "color": "red"
@@ -95,6 +135,18 @@
     },
     "01.개인노트/98.강좌": {
       "icon": "lucide-youtube",
+      "color": "red"
+    },
+    "01.개인노트/98.강좌/OpenClaw": {
+      "icon": "lucide-folders",
+      "color": "red"
+    },
+    "01.개인노트/98.강좌/OpenClaw/01.멀티 에이전트는 필요성.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/98.강좌/OpenClaw/02.멀티 에이전트 배치 구조.md": {
+      "icon": "lucide-notebook-pen",
       "color": "red"
     },
     "01.개인노트/99.기타": {
@@ -188,6 +240,10 @@
     "02.회사노트/02.nexacro/02.Smart Tomcat 설정.md": {
       "color": "blue",
       "icon": "lucide-notebook-pen"
+    },
+    "02.회사노트/02.nexacro/03.Intellij 설정 관련 초기화.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
     },
     "97.칸반보드": {
       "icon": "lucide-folder-open",
