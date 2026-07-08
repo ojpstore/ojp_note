@@ -139,11 +139,11 @@
     },
     "01.개인노트/98.강좌/01.Hermes Agent": {
       "icon": "lucide-folders",
-      "color": "red"
+      "color": "yellow"
     },
     "01.개인노트/98.강좌/02.OpenClaw": {
       "icon": "lucide-folders",
-      "color": "red"
+      "color": "yellow"
     },
     "01.개인노트/98.강좌/02.OpenClaw/01.멀티 에이전트는 필요성.md": {
       "icon": "lucide-notebook-pen",
