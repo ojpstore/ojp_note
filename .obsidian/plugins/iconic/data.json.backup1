@@ -49,6 +49,46 @@
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
+    "01.개인노트/01.Docker/04.Gitea.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/05.MariaDB.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/06.MariaDB & Redmine.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/07.Mssql.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/08.Mysql.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/09.n8n.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/10.Nexus.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/11.ORACLE.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/12.Portainer.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/13.Postgresql.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
     "01.개인노트/02.Hermes": {
       "icon": "lucide-folders",
       "color": "red"
