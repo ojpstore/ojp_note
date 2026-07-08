@@ -137,6 +137,12 @@
       "icon": "lucide-youtube",
       "color": "red"
     },
+    "01.개인노트/98.강좌/01.Hermes Agent": {
+      "color": "yellow"
+    },
+    "01.개인노트/98.강좌/02.OpenClaw": {
+      "color": "yellow"
+    },
     "01.개인노트/99.기타": {
       "icon": "lucide-wallet-cards",
       "color": "green"
