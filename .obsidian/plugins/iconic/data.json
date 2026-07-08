@@ -151,11 +151,15 @@
     },
     "01.개인노트/98.강좌/02.OpenClaw/02.멀티 에이전트 배치 구조.md": {
       "icon": "lucide-notebook-pen",
-      "color": "red"
+      "color": "yellow"
     },
     "01.개인노트/98.강좌/02.OpenClaw/03.에이전트 만들기 & 워크스페이스 분리.md": {
       "icon": "lucide-notebook-pen",
-      "color": "red"
+      "color": "yellow"
+    },
+    "01.개인노트/98.강좌/02.OpenClaw/04.멀티 에이전트 연결을 위한 텔레그램 포럼그룹 및 토픽 준비.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "yellow"
     },
     "01.개인노트/99.기타": {
       "icon": "lucide-wallet-cards",
