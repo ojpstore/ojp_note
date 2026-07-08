@@ -241,6 +241,10 @@
       "color": "blue",
       "icon": "lucide-notebook-pen"
     },
+    "02.회사노트/02.nexacro/03.Intellij 설정 관련 초기화.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
     "97.칸반보드": {
       "icon": "lucide-folder-open",
       "color": "yellow"
