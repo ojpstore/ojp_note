@@ -137,6 +137,18 @@
       "icon": "lucide-youtube",
       "color": "red"
     },
+    "01.개인노트/98.강좌/OpenClaw": {
+      "icon": "lucide-folders",
+      "color": "red"
+    },
+    "01.개인노트/98.강좌/OpenClaw/01.멀티 에이전트는 필요성.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/98.강좌/OpenClaw/02.멀티 에이전트 배치 구조.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
     "01.개인노트/99.기타": {
       "icon": "lucide-wallet-cards",
       "color": "green"
@@ -228,6 +240,10 @@
     "02.회사노트/02.nexacro/02.Smart Tomcat 설정.md": {
       "color": "blue",
       "icon": "lucide-notebook-pen"
+    },
+    "02.회사노트/02.nexacro/03.Intellij 설정 관련 초기화.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
     },
     "97.칸반보드": {
       "icon": "lucide-folder-open",

@@ -3,7 +3,12 @@
   "providers": [
     {
       "type": "anthropic-plan",
-      "id": "anthropic-plan"
+      "id": "anthropic-plan",
+      "oauth": {
+        "accessToken": "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",
+        "refreshToken": "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",
+        "expiresAt": 1782674109649
+      }
     },
     {
       "type": "openai-plan",
@@ -11,7 +16,14 @@
     },
     {
       "type": "gemini-plan",
-      "id": "gemini-plan"
+      "id": "gemini-plan",
+      "oauth": {
+        "accessToken": "ya29.a0AT3oNZ98Fp-xou5gAxy616Qqke_KS4K0y-rk8V7QA0etmX6lDeYmeTgwEtNG9eFd_08O2q7z1Aqa7bzuMKj-FNKNOER-C1m6ERTJ1BJOimc_ORYfXHVYZPORSgdriVlB91tv1873B-dy5KWVjiV6MPz9jYrKYkbL3TrzP5oUK8DPME50-CEIGNAjZtRX-nHcCT9PuwC2x6hGVgaCgYKAXMSARYSFQHGX2Mic-Nhi5iXKXjaRwtBDVFTYQ0213",
+        "refreshToken": "1//0eFt3-wEnxd1tCgYIARAAGA4SNwF-L9Ir2N0oB3tUxmZiQGXRMBDEhtKAbFh_W_1ZJb4zcbrcnh3R01FLu87e_ZeTugpYnIhU7mc",
+        "expiresAt": 1783472160250,
+        "managedProjectId": "lunar-app-5h2h0",
+        "email": "ojpfight@gmail.com"
+      }
     },
     {
       "type": "anthropic",
@@ -47,7 +59,9 @@
     },
     {
       "type": "ollama",
-      "id": "ollama"
+      "id": "ollama",
+      "baseUrl": "http://localhost:11434",
+      "apiKey": "ollama"
     },
     {
       "type": "lm-studio",
@@ -174,6 +188,22 @@
       "providerId": "xai",
       "id": "grok-4-1-fast-non-reasoning",
       "model": "grok-4-1-fast-non-reasoning"
+    },
+    {
+      "providerType": "ollama",
+      "providerId": "ollama",
+      "id": "gemma4:12b",
+      "model": "gemma4:12b",
+      "promptLevel": 1,
+      "enable": true
+    },
+    {
+      "providerType": "ollama",
+      "providerId": "ollama",
+      "id": "gemma4:26b",
+      "model": "gemma4:26b",
+      "promptLevel": 1,
+      "enable": true
     }
   ],
   "embeddingModels": [
@@ -220,8 +250,8 @@
       "dimension": 1024
     }
   ],
-  "chatModelId": "claude-sonnet-4.5",
-  "applyModelId": "gpt-4.1-mini",
+  "chatModelId": "gemini-3-flash-preview (plan)",
+  "applyModelId": "gemini-3-pro-preview (plan)",
   "embeddingModelId": "openai/text-embedding-3-small",
   "systemPrompt": "",
   "ragOptions": {
