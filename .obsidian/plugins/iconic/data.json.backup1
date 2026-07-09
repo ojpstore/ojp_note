@@ -113,6 +113,10 @@
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
+    "01.개인노트/03.OpenClaw/02.OpenClaw 텔레그램 연동 설정.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
     "01.개인노트/04.Git": {
       "icon": "lucide-folders",
       "color": "red"
@@ -138,11 +142,13 @@
       "color": "yellow"
     },
     "01.개인노트/98.강좌/01.Hermes Agent": {
-      "icon": "lucide-folders",
+      "color": "yellow"
+    },
+    "01.개인노트/98.강좌/01.Hermes Agent/무제.md": {
+      "icon": "lucide-notebook-pen",
       "color": "yellow"
     },
     "01.개인노트/98.강좌/02.OpenClaw": {
-      "icon": "lucide-folders",
       "color": "yellow"
     },
     "01.개인노트/98.강좌/02.OpenClaw/01.멀티 에이전트는 필요성.md": {
@@ -242,7 +248,6 @@
       "color": "blue"
     },
     "02.회사노트/02.환경설정": {
-      "icon": "lucide-folders",
       "color": "blue"
     },
     "02.회사노트/02.환경설정/01.Nexacro Studio 환경 설정.md": {
@@ -250,16 +255,16 @@
       "color": "blue"
     },
     "02.회사노트/02.환경설정/02.Smart Tomcat 설정.md": {
-      "color": "blue",
-      "icon": "lucide-notebook-pen"
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
     },
     "02.회사노트/02.환경설정/03.Intellij 설정 관련 초기화.md": {
       "icon": "lucide-notebook-pen",
       "color": "blue"
     },
     "02.회사노트/02.환경설정/04.Intellij 설치.md": {
-      "color": "blue",
-      "icon": "lucide-notebook-pen"
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
     },
     "97.칸반보드": {
       "icon": "lucide-folder-open",
