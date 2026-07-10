@@ -8,7 +8,7 @@
     "display": "Obsidian Core Quick Switcher"
   },
   "showTime": true,
-  "timeFormat": "12-hour",
+  "timeFormat": "24-hour",
   "showGreeting": true,
   "greetingText": "점점 나아지는 하루가 되길",
   "showInlineSearch": true,
