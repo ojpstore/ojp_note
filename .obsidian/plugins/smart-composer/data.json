@@ -18,9 +18,9 @@
       "type": "gemini-plan",
       "id": "gemini-plan",
       "oauth": {
-        "accessToken": "ya29.a0ARGnu0aTN0fxWPKqE5GENxP11WToH1d1EBuSdu7AlmKd30vVmrS7KzB6Zo8jCVWkJqa05S2TH3Uxv8dhXV1Ynsi_y9Ex5vxRJUo3dYPWI6-RxFt_jHj-p8CFIcRSvUOa2Xl1WL9S_qF3DcebKsrZA6mH9I7B4xFcc8a_y5VcMQzCpId90vrb35kC8U7a3F-vXvgulFfzKeLW7QaCgYKAUwSARYSFQHGX2MiybEyLsDcuBa_lJShbSHesg0213",
+        "accessToken": "ya29.a0ARGnu0YUbH-QN4nXgpjSQ9FoLkhQY20mMRuC_-6_m9FIqQL_d9Qqpxg7rOK6Qlj3gvRytH_KLrgBjx-UeFJp6q319mYroYHvtySVck2XvZ9GxypmSDgD3olmiFv4dTxtlLlrEga12uuJiKr66W0jhlKtmgyd-Lhc8xxUR6e7bDgS6zBI1fyOl3fvNsMjibsXcFyv6MRzCZeldgaCgYKAUQSARYSFQHGX2Mi6ZufpLkgc_nzFQudeqFZAg0213",
         "refreshToken": "1//0eFt3-wEnxd1tCgYIARAAGA4SNwF-L9Ir2N0oB3tUxmZiQGXRMBDEhtKAbFh_W_1ZJb4zcbrcnh3R01FLu87e_ZeTugpYnIhU7mc",
-        "expiresAt": 1783600820759,
+        "expiresAt": 1783644661594,
         "managedProjectId": "lunar-app-5h2h0",
         "email": "ojpfight@gmail.com"
       }
