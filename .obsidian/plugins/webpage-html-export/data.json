@@ -10,7 +10,7 @@
     "postProcess": true,
     "displayProgress": true,
     "inlineHTML": false,
-    "exportPath": "",
+    "exportPath": "D:\\note_export",
     "filesToExport": [],
     "useFallbackRenderer": false,
     "addBodyClasses": true,
