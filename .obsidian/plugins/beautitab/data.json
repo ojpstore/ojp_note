@@ -2,7 +2,7 @@
   "backgroundTheme": "seasons and holidays",
   "customBackground": "",
   "localBackgrounds": [],
-  "showTopLeftSearchButton": true,
+  "showTopLeftSearchButton": false,
   "topLeftSearchProvider": {
     "command": "switcher:open",
     "display": "Obsidian Core Quick Switcher"
