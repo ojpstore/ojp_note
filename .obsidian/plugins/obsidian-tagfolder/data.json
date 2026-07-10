@@ -16,7 +16,7 @@
   "useTitle": true,
   "reduceNestedParent": true,
   "frontmatterKey": "title",
-  "useTagInfo": true,
+  "useTagInfo": false,
   "tagInfo": "pininfo.md",
   "mergeRedundantCombination": false,
   "useVirtualTag": false,
