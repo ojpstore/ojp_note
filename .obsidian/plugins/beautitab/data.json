@@ -1,5 +1,5 @@
 {
-  "backgroundTheme": "summer",
+  "backgroundTheme": "seasons and holidays",
   "customBackground": "",
   "localBackgrounds": [],
   "showTopLeftSearchButton": true,
@@ -10,7 +10,7 @@
   "showTime": true,
   "timeFormat": "24-hour",
   "showGreeting": true,
-  "greetingText": "점점 나아지는 하루가 되길",
+  "greetingText": "",
   "showInlineSearch": true,
   "inlineSearchProvider": {
     "command": "switcher:open",
