@@ -1,5 +1,5 @@
 {
-  "hidden": true,
+  "hidden": false,
   "hiddenList": [
     "01.개인노트/01.Docker/attach",
     "01.개인노트/03.OpenClaw/attach",
