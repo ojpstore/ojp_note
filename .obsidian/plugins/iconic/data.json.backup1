@@ -175,6 +175,10 @@
       "icon": "lucide-notebook-pen",
       "color": "yellow"
     },
+    "01.개인노트/98.강좌/02.OpenClaw/06.역할 경계와 변경 승인 흐름 협업 (사람).md": {
+      "icon": "lucide-notebook-pen",
+      "color": "yellow"
+    },
     "01.개인노트/99.기타": {
       "icon": "lucide-wallet-cards",
       "color": "green"
@@ -277,18 +281,18 @@
     },
     "97.칸반보드": {
       "icon": "lucide-folder-open",
-      "color": "yellow"
+      "color": "gray"
     },
     "97.칸반보드/테스트.md": {
       "icon": "lucide-kanban-square"
     },
     "98.Clippings": {
       "icon": "lucide-folder-open",
-      "color": "yellow"
+      "color": "gray"
     },
     "99.Excalidraw": {
       "icon": "lucide-folder-open",
-      "color": "yellow"
+      "color": "gray"
     },
     "🏠 DashBoard.md": {
       "icon": "lucide-layout-dashboard",
