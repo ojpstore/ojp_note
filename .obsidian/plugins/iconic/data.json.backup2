@@ -109,6 +109,14 @@
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
+    "01.개인노트/02.Hermes/04.Hermes 텔레그램 연동.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/02.Hermes/05.Hermes 슬랙 연동.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
     "01.개인노트/03.OpenClaw": {
       "icon": "lucide-folders",
       "color": "red"
@@ -148,7 +156,7 @@
     "01.개인노트/98.강좌/01.Hermes Agent": {
       "color": "yellow"
     },
-    "01.개인노트/98.강좌/01.Hermes Agent/무제.md": {
+    "01.개인노트/98.강좌/01.Hermes Agent/01. 강좌 자료.md": {
       "icon": "lucide-notebook-pen",
       "color": "yellow"
     },
