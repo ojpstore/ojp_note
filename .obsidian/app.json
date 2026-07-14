@@ -7,6 +7,7 @@
   "alwaysUpdateLinks": true,
   "userIgnoreFilters": [
     "/attach",
-    "attach"
+    "attach",
+    "/attach"
   ]
 }
