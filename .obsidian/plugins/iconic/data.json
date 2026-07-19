@@ -153,6 +153,9 @@
       "icon": "lucide-book-down",
       "color": "red"
     },
+    "01.개인노트/05.Claude Code & CLI": {
+      "color": "red"
+    },
     "01.개인노트/98.강좌": {
       "icon": "lucide-youtube",
       "color": "yellow"
@@ -309,6 +312,13 @@
     "🏠 DashBoard.md": {
       "icon": "lucide-layout-dashboard",
       "color": "orange"
+    },
+    "01.개인노트/05.Claude Code & CLI/02.플러그인": {
+      "color": "red"
+    },
+    "01.개인노트/05.Claude Code & CLI/02.플러그인/01. Ponytail.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
     }
   },
   "bookmarkIcons": {},
