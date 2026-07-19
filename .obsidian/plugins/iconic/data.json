@@ -161,7 +161,6 @@
       "color": "red"
     },
     "01.개인노트/06.Antigravity": {
-      "icon": "lucide-folder-closed",
       "color": "red"
     },
     "01.개인노트/06.Antigravity/02.플러그인": {
@@ -225,7 +224,6 @@
       "color": "blue"
     },
     "02.회사노트/01.변환작업 관련": {
-      "icon": "lucide-folder-closed",
       "color": "blue"
     },
     "02.회사노트/01.변환작업 관련/Antigravity": {
@@ -289,8 +287,7 @@
       "color": "blue"
     },
     "02.회사노트/02.환경설정": {
-      "color": "blue",
-      "icon": "lucide-folder-closed"
+      "color": "blue"
     },
     "02.회사노트/02.환경설정/01.Nexacro Studio 환경 설정.md": {
       "icon": "lucide-notebook-pen",
