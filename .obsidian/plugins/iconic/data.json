@@ -34,7 +34,6 @@
       "icon": "lucide-library-big"
     },
     "01.개인노트/01.Docker": {
-      "icon": "lucide-folder-closed",
       "color": "red"
     },
     "01.개인노트/01.Docker/01.mem0 설치 및 관련 정보.md": {
@@ -94,7 +93,6 @@
       "color": "red"
     },
     "01.개인노트/02.Hermes": {
-      "icon": "lucide-folder-closed",
       "color": "red"
     },
     "01.개인노트/02.Hermes/01.Hermes Docker 설치.md": {
@@ -118,7 +116,6 @@
       "color": "red"
     },
     "01.개인노트/03.OpenClaw": {
-      "icon": "lucide-folder-closed",
       "color": "red"
     },
     "01.개인노트/03.OpenClaw/01.OpenClaw Docker 설치.md": {
