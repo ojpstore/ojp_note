@@ -163,6 +163,16 @@
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
+    "01.개인노트/06.Antigravity": {
+      "icon": "lucide-folders",
+      "color": "red"
+    },
+    "01.개인노트/06.Antigravity/02.플러그인": {
+      "color": "red"
+    },
+    "01.개인노트/06.Antigravity/02.플러그인/01.Ponytail.md": {
+      "color": "red"
+    },
     "01.개인노트/98.강좌": {
       "icon": "lucide-youtube",
       "color": "yellow"
