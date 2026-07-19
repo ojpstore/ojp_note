@@ -150,23 +150,16 @@
       "icon": "lucide-book-down",
       "color": "red"
     },
-    "01.개인노트/05.Claude Code & CLI": {
+    "01.개인노트/05.Claude CLI": {
       "color": "red"
     },
-    "01.개인노트/05.Claude Code & CLI/02.플러그인": {
+    "01.개인노트/06.Antigravity CLI": {
       "color": "red"
     },
-    "01.개인노트/05.Claude Code & CLI/02.플러그인/01.Ponytail.md": {
-      "icon": "lucide-notebook-pen",
+    "01.개인노트/06.Antigravity CLI/02.플러그인": {
       "color": "red"
     },
-    "01.개인노트/06.Antigravity": {
-      "color": "red"
-    },
-    "01.개인노트/06.Antigravity/02.플러그인": {
-      "color": "red"
-    },
-    "01.개인노트/06.Antigravity/02.플러그인/01.Ponytail.md": {
+    "01.개인노트/06.Antigravity CLI/02.플러그인/01.Ponytail.md": {
       "color": "red"
     },
     "01.개인노트/98.강좌": {
@@ -323,6 +316,13 @@
     "🏠 DashBoard.md": {
       "icon": "lucide-layout-dashboard",
       "color": "orange"
+    },
+    "01.개인노트/05.Claude CLI/02.플러그인": {
+      "color": "red"
+    },
+    "01.개인노트/05.Claude CLI/02.플러그인/01.Ponytail.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
     }
   },
   "bookmarkIcons": {},
