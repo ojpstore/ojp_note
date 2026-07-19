@@ -129,6 +129,10 @@
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
+    "01.개인노트/03.OpenClaw/03.OpenClaw & Ollama(gemma4 12b).md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
     "01.개인노트/04.Git": {
       "icon": "lucide-folders",
       "color": "red"
