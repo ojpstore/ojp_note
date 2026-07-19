@@ -34,7 +34,6 @@
       "icon": "lucide-library-big"
     },
     "01.개인노트/01.Docker": {
-      "icon": "lucide-folders",
       "color": "red"
     },
     "01.개인노트/01.Docker/01.mem0 설치 및 관련 정보.md": {
@@ -94,7 +93,6 @@
       "color": "red"
     },
     "01.개인노트/02.Hermes": {
-      "icon": "lucide-folders",
       "color": "red"
     },
     "01.개인노트/02.Hermes/01.Hermes Docker 설치.md": {
@@ -118,7 +116,6 @@
       "color": "red"
     },
     "01.개인노트/03.OpenClaw": {
-      "icon": "lucide-folders",
       "color": "red"
     },
     "01.개인노트/03.OpenClaw/01.OpenClaw Docker 설치.md": {
@@ -134,7 +131,7 @@
       "color": "red"
     },
     "01.개인노트/04.Git": {
-      "icon": "lucide-folders",
+      "icon": "lucide-folder-closed",
       "color": "red"
     },
     "01.개인노트/04.Git/01.해당 brach 의 초기 소스.md": {
@@ -153,24 +150,23 @@
       "icon": "lucide-book-down",
       "color": "red"
     },
-    "01.개인노트/05.Claude Code & CLI": {
+    "01.개인노트/05.Claude CLI": {
       "color": "red"
     },
-    "01.개인노트/05.Claude Code & CLI/02.플러그인": {
+    "01.개인노트/05.Claude CLI/02.플러그인": {
       "color": "red"
     },
-    "01.개인노트/05.Claude Code & CLI/02.플러그인/01.Ponytail.md": {
+    "01.개인노트/05.Claude CLI/02.플러그인/01.Ponytail.md": {
       "icon": "lucide-notebook-pen",
       "color": "red"
     },
-    "01.개인노트/06.Antigravity": {
-      "icon": "lucide-notebook-pen",
+    "01.개인노트/06.Antigravity CLI": {
       "color": "red"
     },
-    "01.개인노트/06.Antigravity/02.플러그인": {
+    "01.개인노트/06.Antigravity CLI/02.플러그인": {
       "color": "red"
     },
-    "01.개인노트/06.Antigravity/02.플러그인/01.Ponytail.md": {
+    "01.개인노트/06.Antigravity CLI/02.플러그인/01.Ponytail.md": {
       "color": "red"
     },
     "01.개인노트/98.강좌": {
@@ -228,7 +224,6 @@
       "color": "blue"
     },
     "02.회사노트/01.변환작업 관련": {
-      "icon": "lucide-folders",
       "color": "blue"
     },
     "02.회사노트/01.변환작업 관련/Antigravity": {
@@ -292,8 +287,7 @@
       "color": "blue"
     },
     "02.회사노트/02.환경설정": {
-      "color": "blue",
-      "icon": "lucide-folders"
+      "color": "blue"
     },
     "02.회사노트/02.환경설정/01.Nexacro Studio 환경 설정.md": {
       "icon": "lucide-notebook-pen",
