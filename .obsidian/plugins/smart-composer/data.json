@@ -18,9 +18,9 @@
       "type": "gemini-plan",
       "id": "gemini-plan",
       "oauth": {
-        "accessToken": "ya29.a0ARGnu0ZxurdtZJqwftM-eIrq_xbSQIlM7CW_eoVJZMe0mc1ltmiQsUCfZmxkTdPl_RiWMcmRjwkd7e9GDZ4PszhMs1Rsfam5FjZ7Lx-W-J4F3qTZ1HRdOGZATqRO3zy0hWdjhAGKYG5STng2VF7vNp3rIwEgMxctJsnbm2XgrFvsP2VRIymwSEfwTyVG12ptKseynNBc34uVa74aCgYKAbISARYSFQHGX2MiuZltKL0VTPBoGo3wrF0rKg0214",
+        "accessToken": "ya29.a0ARGnu0b8f3B74HnnMr0FRlxkRRHK4hgs3C0NZtTYQGcErGgbiZhbjFGSYJqYXMKOZhmD3_zJNvMDHHbtvZ_ZaEOXznHEA2AJNGO-qZIIBjuyVhK0fMKrFFimz48DV_qwtNWbzboPtbOBlMqF8ZdB8u9LlwGJLKiYupF5mJ5JtyedbeFoIPztrl07YS30jOLnGAPnO3SrvpEXZWgaCgYKAXcSARYSFQHGX2MiQ2ZNlEtK5ALOMsaIgyxO7A0214",
         "refreshToken": "1//0eFt3-wEnxd1tCgYIARAAGA4SNwF-L9Ir2N0oB3tUxmZiQGXRMBDEhtKAbFh_W_1ZJb4zcbrcnh3R01FLu87e_ZeTugpYnIhU7mc",
-        "expiresAt": 1784449883111,
+        "expiresAt": 1784527690168,
         "managedProjectId": "lunar-app-5h2h0",
         "email": "ojpfight@gmail.com"
       }
@@ -250,7 +250,7 @@
       "dimension": 1024
     }
   ],
-  "chatModelId": "gemma4:12b",
+  "chatModelId": "gemini-3-flash-preview (plan)",
   "applyModelId": "gemini-3-pro-preview (plan)",
   "embeddingModelId": "openai/text-embedding-3-small",
   "systemPrompt": "",
