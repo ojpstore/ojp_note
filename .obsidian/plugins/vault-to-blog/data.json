@@ -2,7 +2,7 @@
   "sourceDir": "/",
   "indexFilePath": "",
   "repositoryUrl": "https://github.com/ojpstore/ojp_note.git",
-  "isActivated": false,
+  "isActivated": true,
   "version": "0.1.1",
   "isEnableComments": true,
   "repo": "",
