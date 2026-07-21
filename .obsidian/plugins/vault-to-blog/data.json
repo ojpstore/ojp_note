@@ -1,10 +1,10 @@
 {
   "sourceDir": "/",
   "indexFilePath": "",
-  "repositoryUrl": "",
+  "repositoryUrl": "https://github.com/ojpstore/ojp_note.git",
   "isActivated": false,
   "version": "0.1.1",
-  "isEnableComments": false,
+  "isEnableComments": true,
   "repo": "",
-  "theme": ""
+  "theme": "github-dark"
 }
