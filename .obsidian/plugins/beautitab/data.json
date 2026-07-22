@@ -1,5 +1,5 @@
 {
-  "backgroundTheme": "spring",
+  "backgroundTheme": "summer",
   "customBackground": "",
   "localBackgrounds": [],
   "showTopLeftSearchButton": false,
@@ -9,7 +9,7 @@
   },
   "showTime": true,
   "timeFormat": "24-hour",
-  "showGreeting": true,
+  "showGreeting": false,
   "greetingText": "",
   "showInlineSearch": true,
   "inlineSearchProvider": {
@@ -17,7 +17,7 @@
     "display": "Obsidian Core Quick Switcher"
   },
   "showRecentFiles": true,
-  "showBookmarks": true,
+  "showBookmarks": false,
   "bookmarkSource": "all",
   "bookmarkGroup": "",
   "showQuote": true,
