@@ -1,7 +1,7 @@
 {
   "lastVersion": "4.0.10",
-  "aestheticStyle": "glass",
-  "positionStyle": "following",
+  "aestheticStyle": "default",
+  "positionStyle": "fixed",
   "menuCommands": [
     {
       "id": "editing-toolbar:editor-undo",
@@ -396,7 +396,7 @@
   "enableMultipleConfig": false,
   "enableTopToolbar": true,
   "enableFollowingToolbar": true,
-  "enableFixedToolbar": false,
+  "enableFixedToolbar": true,
   "appendMethod": "workspace",
   "shouldShowMenuOnSelect": false,
   "cMenuVisibility": true,
