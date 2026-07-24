@@ -172,6 +172,12 @@
     "01.개인노트/97.프로젝트": {
       "color": "red"
     },
+    "01.개인노트/97.프로젝트/Next.js": {
+      "color": "red"
+    },
+    "01.개인노트/97.프로젝트/Springboot": {
+      "color": "red"
+    },
     "01.개인노트/98.강좌": {
       "icon": "lucide-youtube",
       "color": "yellow"
