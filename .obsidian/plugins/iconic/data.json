@@ -169,6 +169,9 @@
     "01.개인노트/06.Antigravity CLI/02.플러그인/01.Ponytail.md": {
       "color": "red"
     },
+    "01.개인노트/97.프로젝트": {
+      "color": "red"
+    },
     "01.개인노트/98.강좌": {
       "icon": "lucide-youtube",
       "color": "yellow"
