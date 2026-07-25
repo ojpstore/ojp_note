@@ -169,6 +169,21 @@
     "01.개인노트/06.Antigravity CLI/02.플러그인/01.Ponytail.md": {
       "color": "red"
     },
+    "01.개인노트/97.개인프로젝트": {
+      "color": "orange"
+    },
+    "01.개인노트/97.개인프로젝트/Next.js": {
+      "color": "orange"
+    },
+    "01.개인노트/97.개인프로젝트/Next.js/01.프로젝트 생성.md": {
+      "color": "orange"
+    },
+    "01.개인노트/97.개인프로젝트/Springboot": {
+      "color": "orange"
+    },
+    "01.개인노트/97.개인프로젝트/Springboot/01.프로젝트 생성.md": {
+      "color": "orange"
+    },
     "01.개인노트/98.강좌": {
       "icon": "lucide-youtube",
       "color": "yellow"
