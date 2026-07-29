@@ -228,15 +228,15 @@
     },
     "01.개인노트/99.기타/01.플러그인 정보.md": {
       "icon": "lucide-notebook-pen",
-      "color": "red"
+      "color": "green"
     },
     "01.개인노트/99.기타/02.vscode ssh 설정.md": {
       "icon": "lucide-notebook-pen",
-      "color": "red"
+      "color": "green"
     },
     "01.개인노트/99.기타/03.Obsidian 에서 특정 폴더 안보이게 처리.md": {
       "icon": "lucide-notebook-pen",
-      "color": "red"
+      "color": "green"
     },
     "02.회사노트": {
       "icon": "lucide-library-big",
