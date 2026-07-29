@@ -4,6 +4,7 @@
   "accentColor": "#8656f5",
   "enabledCssSnippets": [
     "dashboard",
-    "full-width"
+    "full-width",
+    "hide-attach"
   ]
 }
