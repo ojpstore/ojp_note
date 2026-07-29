@@ -320,6 +320,10 @@
       "icon": "lucide-notebook-pen",
       "color": "blue"
     },
+    "02.회사노트/02.환경설정/05.Intellij 설정.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
     "97.칸반보드": {
       "icon": "lucide-folder-open",
       "color": "gray"
