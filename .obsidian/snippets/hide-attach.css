@@ -1,0 +1,7 @@
+/* 경로 끝이 /attach 이거나, 폴더명이 정확히 attach인 폴더 숨기기 */
+div.nav-folder-title[data-path$="/attach"],
+div.nav-folder-title[data-path="attach"],
+div.nav-folder-title[data-path$="/attach"] + div.nav-folder-children,
+div.nav-folder-title[data-path="attach"] + div.nav-folder-children {
+    display: none !important;
+}
