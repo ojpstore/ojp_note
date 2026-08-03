@@ -1,0 +1,368 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": true,
+  "showAllFolderIcons": true,
+  "minimalFolderIcons": true,
+  "showMarkdownTabIcons": true,
+  "showTitleIcons": true,
+  "showTagPillIcons": false,
+  "showMenuActions": true,
+  "showSuggestionIcons": false,
+  "showQuickSwitcherIcons": true,
+  "showMoveFileIcons": true,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "maxBackups": 2,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": false,
+    "rulePage": "file"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "01.개인노트": {
+      "color": "red",
+      "icon": "lucide-library-big"
+    },
+    "01.개인노트/01.Docker": {
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/01.mem0 설치 및 관련 정보.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/02.Rockylinux Dockerfile.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/03.Docker MCP Toolkit 연결.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/04.Gitea.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/05.MariaDB.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/06.MariaDB & Redmine.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/07.Mssql.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/08.Mysql.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/09.n8n.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/10.Nexus.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/11.ORACLE.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/12.Portainer.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/13.Postgresql.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/01.Docker/14.MariaDB & Redmine.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/02.Hermes": {
+      "color": "red"
+    },
+    "01.개인노트/02.Hermes/01.Hermes Docker 설치.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/02.Hermes/02.Hermes Agent & Ollama(Gemma4) 연동.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/02.Hermes/03.Hermes Agent & Ollama(llama3.2) 연동.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/02.Hermes/04.Hermes 텔레그램 연동.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/02.Hermes/05.Hermes 슬랙 연동.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/03.OpenClaw": {
+      "color": "red"
+    },
+    "01.개인노트/03.OpenClaw/01.OpenClaw Docker 설치.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/03.OpenClaw/02.OpenClaw 텔레그램 연동 설정.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/03.OpenClaw/03.OpenClaw & Ollama(gemma4 12b).md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/04.Git": {
+      "icon": "lucide-folder-closed",
+      "color": "red"
+    },
+    "01.개인노트/04.Git/01.해당 brach 의 초기 소스.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/04.Git/02.특정 branch 에서 현재 branch에 조건별 merge.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/04.Git/99.Sourcetree 외부 비교 - Visual Studio Code.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/04.RockLinux": {
+      "icon": "lucide-book-down",
+      "color": "red"
+    },
+    "01.개인노트/05.Claude CLI": {
+      "color": "red"
+    },
+    "01.개인노트/05.Claude CLI/02.플러그인": {
+      "color": "red"
+    },
+    "01.개인노트/05.Claude CLI/02.플러그인/01.Ponytail.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "red"
+    },
+    "01.개인노트/06.Antigravity CLI": {
+      "color": "red"
+    },
+    "01.개인노트/06.Antigravity CLI/02.플러그인": {
+      "color": "red"
+    },
+    "01.개인노트/06.Antigravity CLI/02.플러그인/01.Ponytail.md": {
+      "color": "red"
+    },
+    "01.개인노트/97.개인프로젝트": {
+      "color": "orange"
+    },
+    "01.개인노트/97.개인프로젝트/Next.js": {
+      "color": "orange"
+    },
+    "01.개인노트/97.개인프로젝트/Next.js/01.프로젝트 생성.md": {
+      "color": "orange"
+    },
+    "01.개인노트/97.개인프로젝트/Springboot": {
+      "color": "orange"
+    },
+    "01.개인노트/97.개인프로젝트/Springboot/01.프로젝트 생성.md": {
+      "color": "orange"
+    },
+    "01.개인노트/98.강좌": {
+      "icon": "lucide-youtube",
+      "color": "yellow"
+    },
+    "01.개인노트/98.강좌/01.Hermes Agent": {
+      "color": "yellow"
+    },
+    "01.개인노트/98.강좌/01.Hermes Agent/01. 강좌 자료.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "yellow"
+    },
+    "01.개인노트/98.강좌/02.OpenClaw": {
+      "color": "yellow"
+    },
+    "01.개인노트/98.강좌/02.OpenClaw/01.멀티 에이전트는 필요성.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "yellow"
+    },
+    "01.개인노트/98.강좌/02.OpenClaw/02.멀티 에이전트 배치 구조.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "yellow"
+    },
+    "01.개인노트/98.강좌/02.OpenClaw/03.에이전트 만들기 & 워크스페이스 분리.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "green"
+    },
+    "01.개인노트/98.강좌/02.OpenClaw/04.멀티 에이전트 연결을 위한 텔레그램 포럼그룹 및 토픽 준비.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "yellow"
+    },
+    "01.개인노트/98.강좌/02.OpenClaw/05.텔레그램 토픽에 연결하고 라우팅하기.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "green"
+    },
+    "01.개인노트/98.강좌/02.OpenClaw/06.역할 경계와 변경 승인 흐름 협업 (사람).md": {
+      "icon": "lucide-notebook-pen",
+      "color": "yellow"
+    },
+    "01.개인노트/99.기타": {
+      "icon": "lucide-wallet-cards",
+      "color": "green"
+    },
+    "01.개인노트/99.기타/01.플러그인 정보.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "green"
+    },
+    "01.개인노트/99.기타/02.vscode ssh 설정.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "green"
+    },
+    "01.개인노트/99.기타/03.Obsidian 에서 특정 폴더 안 보이게 처리.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "green"
+    },
+    "02.회사노트": {
+      "icon": "lucide-library-big",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련": {
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Antigravity": {
+      "icon": "lucide-folders",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Antigravity/01.antigravity-base.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Antigravity/02.antigravity-base2.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Antigravity/03.antigravity-base3.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Antigravity/04.antigravity-base4.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Antigravity/97.Mybatis parameterType (파일단위).md": {
+      "icon": "lucide-notebook-pen",
+      "color": "orange"
+    },
+    "02.회사노트/01.변환작업 관련/Antigravity/98. Mybatis parameterType (All).md": {
+      "icon": "lucide-notebook-pen",
+      "color": "orange"
+    },
+    "02.회사노트/01.변환작업 관련/Antigravity/99.antigravity-ext.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Hermes": {
+      "icon": "lucide-folders",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Hermes/prompt": {
+      "icon": "lucide-folders",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Hermes/prompt/01. 테이블 스키마 기준으로 쿼리 컬럼 조사 (진행중).md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Hermes/skill": {
+      "icon": "lucide-folders",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Hermes/skill/01.pan-mybatis.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Hermes/skill/02.pan-service.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/01.변환작업 관련/Hermes/skill/03.테이블 비교 작업.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/02.환경설정": {
+      "color": "blue"
+    },
+    "02.회사노트/02.환경설정/01.Nexacro Studio 환경 설정.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/02.환경설정/02.Nexacro Studio 라이센스 삭제.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/02.환경설정/03.Intellij 설정 관련 초기화.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/02.환경설정/04.Intellij 설치.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/02.환경설정/05.Intellij 설정.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/02.환경설정/06.Smart Tomcat 설정.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "02.회사노트/98.기타": {
+      "color": "blue"
+    },
+    "02.회사노트/98.기타/01.현재 소소 와 현업 SVN 소스 비교.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "blue"
+    },
+    "97.칸반보드": {
+      "icon": "lucide-folder-open",
+      "color": "gray"
+    },
+    "97.칸반보드/테스트.md": {
+      "icon": "lucide-kanban-square"
+    },
+    "98.Clippings": {
+      "icon": "lucide-folder-open",
+      "color": "gray"
+    },
+    "99.Excalidraw": {
+      "icon": "lucide-folder-open",
+      "color": "gray"
+    },
+    "🏠 DashBoard.md": {
+      "icon": "lucide-layout-dashboard",
+      "color": "orange"
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {},
+  "fileRules": [],
+  "folderRules": []
+}
