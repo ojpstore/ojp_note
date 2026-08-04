@@ -5,9 +5,9 @@
       "type": "anthropic-plan",
       "id": "anthropic-plan",
       "oauth": {
-        "accessToken": "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",
-        "refreshToken": "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",
-        "expiresAt": 1782674109649
+        "accessToken": "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",
+        "refreshToken": "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",
+        "expiresAt": 1785915279378
       }
     },
     {
@@ -18,10 +18,9 @@
       "type": "gemini-plan",
       "id": "gemini-plan",
       "oauth": {
-        "accessToken": "ya29.a0ARGnu0b0Emp1iYtCf7IOTgylGrrVA9SeniiW8ycoBqRUtfweSatv5T8o2YyPOke2HKp6I-p4LoIwahvUFK3ScFa-2o_k11UhguziUVrVoJihz9Zh7gPNqzccAjxX2NufX_TxnNy62kyojifBd1NPChjGiqmOcjrydxTKtE8z2q19bpFDIqJOprWPPcKY4_qnuISbnI06w_5qIAwaCgYKAW4SARYSFQHGX2MisM6m5izGiPnGEgxA17d7Kw0214",
-        "refreshToken": "1//0eFt3-wEnxd1tCgYIARAAGA4SNwF-L9Ir2N0oB3tUxmZiQGXRMBDEhtKAbFh_W_1ZJb4zcbrcnh3R01FLu87e_ZeTugpYnIhU7mc",
-        "expiresAt": 1785890016146,
-        "managedProjectId": "lunar-app-5h2h0",
+        "accessToken": "ya29.a0ARGnu0Zru-y5caLf58Enm7dPGuM7v6OZxRocHurW0aYRJLqontM2KvmRAnvZh1TbEjGQHVVmnS1uOH6CHzth6ZsHTQN0aBKi8KctrxW-mj9rh-PLWPEFeMCaAnrhAzja6UJOsh64CBk1Chyf-vjsbcUpEJWqYY7t2CTi1huPf9CgZOOmH_Nys7hQUWI4cOSSAQnDXazg1RoZaCgYKAasSARYSFQHGX2MizjxvaUOGi-oJZ0qUBYXCBQ0211",
+        "refreshToken": "1//0ezM2sRI2KJY_CgYIARAAGA4SNwF-L9IrtuSdCBCkJVZq5z2rxPXc5MLDCjWLssEjS3vLqOhuiF90edeQ9xmcK-rxKSSQNt04NUc",
+        "expiresAt": 1785890096792,
         "email": "ojpfight@gmail.com"
       }
     },
