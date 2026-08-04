@@ -34,7 +34,8 @@
     },
     {
       "type": "gemini",
-      "id": "gemini"
+      "id": "gemini",
+      "apiKey": "AQ.Ab8RN6KSrMEa2IoxEeW5LdkMnHATMWpkVdkW4ceupYJ_NdJtbQ"
     },
     {
       "type": "xai",
