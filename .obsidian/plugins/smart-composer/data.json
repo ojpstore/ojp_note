@@ -203,6 +203,14 @@
       "model": "gemma4:26b",
       "promptLevel": 1,
       "enable": true
+    },
+    {
+      "providerId": "gemini",
+      "providerType": "gemini",
+      "id": "Gemini 3.6 Flash",
+      "model": "Gemini 3.6 Flash",
+      "promptLevel": 1,
+      "enable": true
     }
   ],
   "embeddingModels": [
