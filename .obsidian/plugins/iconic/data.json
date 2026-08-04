@@ -238,6 +238,9 @@
       "icon": "lucide-notebook-pen",
       "color": "green"
     },
+    "01.개인노트/99.기타/04.Windows 폴더 연결 방법 (Directory Junction & Symbolic Link).md": {
+      "color": "green"
+    },
     "02.회사노트": {
       "icon": "lucide-library-big",
       "color": "blue"
