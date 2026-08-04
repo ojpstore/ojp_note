@@ -1,7 +1,5 @@
 ---
-tags:
-  - 회사노트
-  - antigravity
+trigger: always_on
 ---
 
 # 🚩 Mybatis 및 DAO 작업 가이드라인
@@ -154,8 +152,3 @@ DAO 클래스 내의 로직 전환 규칙입니다.
       ```java
       // 변경된 코드
       ```
-
-## 5. 첨부파일
-
-![[Pasted image 20260804095230.png|719]]
-![[base.md_bak]]
