@@ -5,9 +5,9 @@
       "type": "anthropic-plan",
       "id": "anthropic-plan",
       "oauth": {
-        "accessToken": "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",
-        "refreshToken": "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",
-        "expiresAt": 1785915279378
+        "accessToken": "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",
+        "refreshToken": "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",
+        "expiresAt": 1786485838529
       }
     },
     {
@@ -258,7 +258,7 @@
       "dimension": 1024
     }
   ],
-  "chatModelId": "gemini-3-flash-preview (plan)",
+  "chatModelId": "claude-sonnet-4.5 (plan)",
   "applyModelId": "gemini-3-pro-preview (plan)",
   "embeddingModelId": "openai/text-embedding-3-small",
   "systemPrompt": "",
