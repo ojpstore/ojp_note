@@ -339,6 +339,9 @@
     "02.회사노트/98.기타": {
       "color": "blue"
     },
+    "02.회사노트/98.기타/01.Redmine 관련": {
+      "color": "blue"
+    },
     "02.회사노트/98.기타/01.Redmine 관련/01.MariaDb.md": {
       "icon": "lucide-notebook-pen",
       "color": "blue"
