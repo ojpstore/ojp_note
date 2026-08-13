@@ -182,9 +182,14 @@
       "color": "orange"
     },
     "01.개인노트/97.개인프로젝트/Springboot/01.프로젝트 생성 프롬프트 예제.md": {
-      "color": "orange"
+      "color": "orange",
+      "icon": "lucide-notebook-pen"
     },
     "01.개인노트/97.개인프로젝트/Springboot/02.Intellij 로 프로젝트 생성.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "orange"
+    },
+    "01.개인노트/97.개인프로젝트/Springboot/03.SmartTomcat 설정.md": {
       "icon": "lucide-notebook-pen",
       "color": "orange"
     },
