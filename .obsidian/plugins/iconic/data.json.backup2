@@ -278,6 +278,9 @@
       "icon": "lucide-notebook-pen",
       "color": "blue"
     },
+    "02.회사노트/01.변환작업 관련/Antigravity/96. 기존 Mybatis 비교 및 변경 전 소스 제외.md": {
+      "color": "orange"
+    },
     "02.회사노트/01.변환작업 관련/Antigravity/97.Mybatis parameterType (파일단위).md": {
       "icon": "lucide-notebook-pen",
       "color": "orange"
@@ -359,7 +362,11 @@
       "icon": "lucide-notebook-pen",
       "color": "blue"
     },
+<<<<<<< HEAD
+    "02.회사노트/98.기타/01.현재 소소 와 현업 SVN 소스 비교.md": {
+=======
     "02.회사노트/98.기타/01.현재 소스 와 현업 SVN 소스 비교.md": {
+>>>>>>> origin/main
       "icon": "lucide-notebook-pen",
       "color": "blue"
     },
