@@ -181,9 +181,6 @@
     "01.개인노트/97.개인프로젝트/Springboot": {
       "color": "orange"
     },
-    "01.개인노트/97.개인프로젝트/Springboot/01.프로젝트 생성.md": {
-      "color": "orange"
-    },
     "01.개인노트/98.강좌": {
       "icon": "lucide-youtube",
       "color": "yellow"
@@ -350,10 +347,6 @@
       "color": "blue"
     },
     "02.회사노트/98.기타/01.Redmine 관련/02.Redmine.md": {
-      "icon": "lucide-notebook-pen",
-      "color": "blue"
-    },
-    "02.회사노트/98.기타/01.현재 소소 와 현업 SVN 소스 비교.md": {
       "icon": "lucide-notebook-pen",
       "color": "blue"
     },
