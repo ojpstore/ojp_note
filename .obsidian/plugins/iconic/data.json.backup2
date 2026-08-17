@@ -182,15 +182,6 @@
       "color": "orange"
     },
     "01.개인노트/97.개인프로젝트/Springboot/01.프로젝트 생성 프롬프트 예제.md": {
-      "color": "orange",
-      "icon": "lucide-notebook-pen"
-    },
-    "01.개인노트/97.개인프로젝트/Springboot/02.Intellij 로 프로젝트 생성.md": {
-      "icon": "lucide-notebook-pen",
-      "color": "orange"
-    },
-    "01.개인노트/97.개인프로젝트/Springboot/03.SmartTomcat 설정.md": {
-      "icon": "lucide-notebook-pen",
       "color": "orange"
     },
     "01.개인노트/98.강좌": {
@@ -359,14 +350,6 @@
       "color": "blue"
     },
     "02.회사노트/98.기타/01.Redmine 관련/02.Redmine.md": {
-      "icon": "lucide-notebook-pen",
-      "color": "blue"
-    },
-<<<<<<< HEAD
-    "02.회사노트/98.기타/01.현재 소소 와 현업 SVN 소스 비교.md": {
-=======
-    "02.회사노트/98.기타/01.현재 소스 와 현업 SVN 소스 비교.md": {
->>>>>>> origin/main
       "icon": "lucide-notebook-pen",
       "color": "blue"
     },

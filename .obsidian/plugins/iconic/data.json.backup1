@@ -184,6 +184,18 @@
     "01.개인노트/97.개인프로젝트/Springboot/01.프로젝트 생성 프롬프트 예제.md": {
       "color": "orange"
     },
+    "01.개인노트/97.개인프로젝트/Springboot/02.Intellij 로 프로젝트 생성.md": {
+      "color": "orange"
+    },
+    "01.개인노트/97.개인프로젝트/Springboot/03.SmartTomcat 설정.md": {
+      "color": "orange"
+    },
+    "01.개인노트/97.개인프로젝트/Springboot/04.Mybatis 및 Sql 로그 관련 작업.md": {
+      "color": "orange"
+    },
+    "01.개인노트/97.개인프로젝트/Springboot/05.Swagger 관련 작업.md": {
+      "color": "orange"
+    },
     "01.개인노트/98.강좌": {
       "icon": "lucide-youtube",
       "color": "yellow"
