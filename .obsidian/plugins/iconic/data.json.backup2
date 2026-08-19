@@ -254,6 +254,18 @@
       "color": "green",
       "icon": "lucide-notebook-pen"
     },
+    "01.개인노트/99.기타/05.Orca - Gitea 연동 가이드.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "green"
+    },
+    "01.개인노트/99.기타/06.Unsloth 데스크탑 앱으로 Local AI 사용해보기.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "green"
+    },
+    "01.개인노트/99.기타/08.개인 pc - vpn 서버.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "green"
+    },
     "02.회사노트": {
       "icon": "lucide-library-big",
       "color": "blue"
