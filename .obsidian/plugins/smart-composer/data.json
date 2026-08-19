@@ -3,12 +3,7 @@
   "providers": [
     {
       "type": "anthropic-plan",
-      "id": "anthropic-plan",
-      "oauth": {
-        "accessToken": "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",
-        "refreshToken": "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",
-        "expiresAt": 1787125776566
-      }
+      "id": "anthropic-plan"
     },
     {
       "type": "openai-plan",
@@ -18,9 +13,9 @@
       "type": "gemini-plan",
       "id": "gemini-plan",
       "oauth": {
-        "accessToken": "ya29.a0AdMD6Eg8tc9PAXztV9mHTIarP3nFzyhTIb1ruFn2HrGxGT127dGwZvrqxF4DYuRqy2ZikVH1IVsFOO-3MGKa_5yt6sGyvJjttblhf0Jrj3VylYOoGdq-kTFzFZJow98MJshxh0Tv1pBV5aY9myINC9gnrMf-aSmsT11gYt7qKdiM2KAirV45JCknGq5HOch-AroTGLsNa-vuKQaCgYKAVYSARYSFQHGX2MiNO-rNUYAYoDuoKuiO0ACNw0213",
+        "accessToken": "ya29.a0AdMD6EjQz_44IY7sfshUzJ58ocOHIJe_vVsnNKwt5DBRVBF5DELZGMVf2Ejq03-Y4eUtuoAUI1QG8lE96v4DNUCKgP8Wgalo5IZorcR7TWobKmT0fBVpJmij7qRs4p5KQcsyaOyq7V7jtkRrMw1UWZrzcEFP4gh6ne9l_SszmTHctN1LKhiQLMTeOmQS62YVPhBuC7_SrevxcwaCgYKAdgSARYSFQHGX2Mi7AEzLavW-qh5jlIH6fjhVw0213",
         "refreshToken": "1//0ezM2sRI2KJY_CgYIARAAGA4SNwF-L9IrtuSdCBCkJVZq5z2rxPXc5MLDCjWLssEjS3vLqOhuiF90edeQ9xmcK-rxKSSQNt04NUc",
-        "expiresAt": 1787100659653,
+        "expiresAt": 1786865329957,
         "email": "ojpfight@gmail.com"
       }
     },
