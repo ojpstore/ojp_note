@@ -1,9 +1,9 @@
-name: Deploy to GitHub Pages
+name: Deploy Obsidian Notes with Quartz 4 to GitHub Pages
 
 on:
   push:
     branches:
-      - main # 사용하는 기본 브랜치 (main 또는 master)
+      - main # 기본 브랜치 (main)
   workflow_dispatch:
 
 # GitHub Pages 배포 권한 설정
@@ -12,29 +12,61 @@ permissions:
   pages: write
   id-token: write
 
+# 동시 배포 제어
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Obsidian Vault
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Git 히스토리 전체를 가져와 최근 수정일 등 메타데이터 지원
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Setup Quartz & Prepare Content
+        run: |
+          # 1. Quartz v4 공식 템플릿 클론
+          git clone --depth 1 https://github.com/jackyzha0/quartz.git quartz-builder
+          cd quartz-builder
+
+          # 2. Quartz 기본 샘플 content 디렉터리 비우기
+          rm -rf content/*
+
+          # 3. 현재 저장소의 마크다운/노트 파일들을 Quartz content 디렉터리로 복사 (.git, .github, .obsidian 제외)
+          rsync -av --exclude='.git' --exclude='.github' --exclude='.obsidian' --exclude='quartz-builder' ../ content/
+
+          # 4. Quartz는 홈페이지로 index.md를 사용합니다.
+          # index.md가 없으면 '🏠 DashBoard.md' 또는 첫 노트를 index.md로 복사합니다.
+          if [ ! -f "content/index.md" ]; then
+            if [ -f "content/🏠 DashBoard.md" ]; then
+              cp "content/🏠 DashBoard.md" content/index.md
+            fi
+          fi
+
+          # 5. 의존성 설치 및 Quartz 빌드
+          npm ci
+          npx quartz build
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: quartz-builder/public
+
   deploy:
+    needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          # 배포할 파일 경로 (루트 디렉터리 전체 배포 시 '.')
-          path: '.'
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
