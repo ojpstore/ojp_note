@@ -3,7 +3,12 @@
   "providers": [
     {
       "type": "anthropic-plan",
-      "id": "anthropic-plan"
+      "id": "anthropic-plan",
+      "oauth": {
+        "accessToken": "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",
+        "refreshToken": "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",
+        "expiresAt": 1787168440827
+      }
     },
     {
       "type": "openai-plan",
