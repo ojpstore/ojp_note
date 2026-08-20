@@ -5,9 +5,9 @@
       "type": "anthropic-plan",
       "id": "anthropic-plan",
       "oauth": {
-        "accessToken": "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",
-        "refreshToken": "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",
-        "expiresAt": 1787168440827
+        "accessToken": "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",
+        "refreshToken": "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",
+        "expiresAt": 1787259446812
       }
     },
     {
