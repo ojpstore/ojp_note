@@ -266,6 +266,10 @@
       "icon": "lucide-notebook-pen",
       "color": "green"
     },
+    "01.개인노트/99.기타/09.Quartz.md": {
+      "icon": "lucide-notebook-pen",
+      "color": "green"
+    },
     "02.회사노트": {
       "icon": "lucide-library-big",
       "color": "blue"
